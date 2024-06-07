@@ -306,7 +306,7 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 }
 
 /* Previous/next lesson arrow links */
-.post-actions-pagination a {
+.post-actions-pagination a i {
   min-width: 44px;
 }
 
