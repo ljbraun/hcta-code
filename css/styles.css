@@ -259,6 +259,11 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 
 }
 
+/* Previous/next lesson arrow links */
+.post-actions-pagination a {
+  min-width: 44px;
+}
+
 /* Adding explanator text below intro videos */
 .main-content .main-content-video {
   background: var(--hcta-primary);
