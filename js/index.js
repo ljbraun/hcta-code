@@ -4,8 +4,10 @@
 // lesson-nav functions (can't use multiple files because of CORS policy)
 function scrollToCurrentLesson() {
 	const currentLessonTitle = document.querySelector(
-		".main-sidebar product-outline-post.active"
+		".main-sidebar .product-outline-post.active"
 	)
+
+	console.log("currentLessonTitle", currentLessonTitle)
 
 	if (currentLessonTitle) {
 		currentLessonTitle.scrollIntoView({
