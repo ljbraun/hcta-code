@@ -283,7 +283,7 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 
 /* Lesson styling */
 
-/* In-lesson navigation */
+/* In-lesson panel navigation */
 
 /* Active lesson */
 .product-outline-post.active {
@@ -298,22 +298,6 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 	font-weight: 400;
 	color: var(--hcta-dark-text-pale);
 	text-decoration: none;
-}
-
-/* Complete lesson button */
-[data-post-completion-toggle="true"] {
-
-}
-
-/* Previous/next lesson arrow links */
-
-.post-actions-pagination a {
-  color: var(--hcta-primary);
-  font-size: 1.8rem;
-}
-
-.post-actions-pagination a i { /* Making arrow accessible size */
-  min-width: 44px;
 }
 
 /* Adding explanator text below intro videos */
@@ -362,9 +346,39 @@ a.post-actions-complete:hover {
 	color: var(--hcta-light-text);
 }
 
+[data-post-completion-toggle="true"] { /* Lesson Completed! button state */
+
+}
+
+@media (max-width: 991px) { /* Making button text accessible size on mobile */
+  .post-actions-complete {
+      font-size: 1rem;
+  }
+}
+
+/* Previous/next lesson arrow links */
+
+.post-actions-pagination a {
+  color: var(--hcta-primary);
+  font-size: 1.8rem;
+}
+
+.post-actions-pagination a i { /* Making arrow accessible size */
+  min-width: 44px;
+}
+
+
 /* Favourite lesson star button */
 .post-actions-favorite {
 	border: 2px solid var(--hcta-primary);
+}
+
+@media (max-width: 991px) {
+  .post-actions-favorite {
+      padding: 8px;
+      margin-right: 6px;
+      font-size: 1rem;
+  }
 }
 
 /* Lesson objectives */
