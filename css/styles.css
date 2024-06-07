@@ -796,12 +796,21 @@ p.hcta-email-template__subject {
   color: var(--hcta-dark-text);
 }
 
-.hcta-content-block { /* For blocks of content with light bg */
+.hcta-content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.hcta-content-block p {
+  max-width: var(--hcta-max-width-ch);
+}
+
+.hcta-content-block--light { /* For blocks of content with light bg */
   background-color: var(--hcta-light-bg);
   color: var(--hcta-dark-text);
 }
 
-.hcta-content-block h1 {
+.hcta-content-block--light h1 {
   color: inherit;
 }
 
