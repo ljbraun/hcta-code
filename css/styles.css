@@ -377,6 +377,12 @@ a.post-actions-complete:hover {
 /* Favourite lesson star button */
 .post-actions-favorite {
 	border: var(--hcta-border-width) solid var(--hcta-primary);
+  color: var(--hcta-primary);
+}
+
+.post-actions-favorite.favorited {
+  background-color: var(--hcta-success-green);
+  color: var(--hcta-light-text);
 }
 
 @media (max-width: 991px) {
