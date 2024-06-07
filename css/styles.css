@@ -121,7 +121,7 @@ h3 {
 
 h4 {
 /*	font-size: 1.25rem;*/
-  font-size: clamp(1.286rem, 0.055vw + 1.268rem, 1.344rem);
+  font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
 	font-weight: 400;
 }
 
