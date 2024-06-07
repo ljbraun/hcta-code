@@ -383,6 +383,7 @@ a.post-actions-complete:hover {
 .post-actions-favorite.favorited {
   background-color: var(--hcta-success-green);
   color: var(--hcta-light-text);
+  border: var(--hcta-border-width) solid var(--hcta-success-green);
 }
 
 @media (max-width: 991px) {
