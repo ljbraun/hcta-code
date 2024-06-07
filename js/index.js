@@ -7,8 +7,6 @@ function scrollToCurrentLesson() {
 		".main-sidebar .product-outline-post.active"
 	)
 
-	console.log("currentLessonTitle", currentLessonTitle)
-
 	if (currentLessonTitle) {
 		currentLessonTitle.scrollIntoView({
 			behavior: "smooth",
@@ -29,6 +27,5 @@ export function initLessonNav() {
 
 // init
 ;(() => {
-	console.log("JS initiated...")
 	window.addEventListener("load", initLessonNav)
 })()
