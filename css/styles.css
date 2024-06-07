@@ -340,7 +340,7 @@ a.post-actions-complete {
 	text-decoration: none;
 }
 
-a.post-actions-complete:hover {
+a.post-actions-complete:hover, .post-actions-favorite:hover {
 	background-color: var(--hcta-primary);
   border: var(--hcta-border-width) solid var(--hcta-primary);
 	color: var(--hcta-light-text);
@@ -378,6 +378,7 @@ a.post-actions-complete:hover {
 .post-actions-favorite {
 	border: var(--hcta-border-width) solid var(--hcta-primary);
   color: var(--hcta-primary);
+  font-size: 1.2rem;
 }
 
 .post-actions-favorite.favorited {
