@@ -16,7 +16,7 @@ function scrollToCurrentLesson() {
 	return
 }
 
-export function initLessonNav() {
+function initLessonNav() {
 	if (document.readyState === "complete") {
 		scrollToCurrentLesson()
 	} else {
@@ -24,7 +24,38 @@ export function initLessonNav() {
 	}
 }
 
+function createSkipLink() {
+	// Create the skip link element
+	const skipLink = document.createElement("a")
+
+	const isMainWebsite = document.querySelector("main")
+	const skipLinkTarget = isMainWebsite ? "main" : ".main-content"
+	console.log(skipLinkTarget)
+
+	skipLink.href = "#"
+	skipLink.textContent = "Skip to main content"
+	skipLink.className = "skip-link"
+
+	// Insert the skip link at the beginning of the body
+	document.body.insertBefore(skipLink, document.body.firstChild)
+
+	// Add click event listener to move focus to main content
+	skipLink.addEventListener("click", function (event) {
+		event.preventDefault()
+
+		const mainContent = document.querySelector(skipLinkTarget)
+		console.log(mainContent)
+		if (mainContent) {
+			mainContent.setAttribute("tabindex", "-1")
+			mainContent.focus()
+		}
+	})
+
+	return
+}
+
 // init
 ;(() => {
 	window.addEventListener("load", initLessonNav)
+	window.addEventListener("load", createSkipLink)
 })()
