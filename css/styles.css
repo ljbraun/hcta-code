@@ -347,7 +347,7 @@ a.post-actions-complete:hover {
 }
 
 [data-post-completion-toggle="true"] { /* Lesson Completed! button state */
-
+  background-color: var(--hcta-success-green);
 }
 
 @media (max-width: 991px) { /* Making button text accessible size on mobile */
