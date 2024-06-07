@@ -25,9 +25,20 @@
     --hcta-max-width-ch: 58ch;
 }
 
+/*
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
+  }
+}
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion) {
+  html {
+    scroll-behavior: unset;
   }
 }
 
@@ -241,6 +252,11 @@ div[data-dynamic-sections="library"] div.resume-course__image {
   font-weight: 400;
   color: var(--hcta-dark-text-pale);
   text-decoration: none;
+}
+
+/* Complete lesson button */
+[data-post-completion-toggle="true"] {
+
 }
 
 /* Adding explanator text below intro videos */
