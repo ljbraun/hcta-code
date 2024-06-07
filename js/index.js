@@ -9,7 +9,6 @@ function scrollToCurrentLesson() {
 
 	if (currentLessonTitle) {
 		currentLessonTitle.scrollIntoView({
-			behavior: "smooth",
 			block: "center",
 		})
 	}
