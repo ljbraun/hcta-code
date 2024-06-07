@@ -306,7 +306,13 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 }
 
 /* Previous/next lesson arrow links */
-.post-actions-pagination a i {
+
+.post-actions-pagination a {
+  color: var(--hcta-primary);
+  font-size: 1.8rem;
+}
+
+.post-actions-pagination a i { /* Making arrow accessible size */
   min-width: 44px;
 }
 
