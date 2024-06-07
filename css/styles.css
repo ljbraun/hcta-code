@@ -93,7 +93,7 @@ html {
 	font-style: normal;
 }
 
-h1, h2, h3, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, h1 span /* This selector works, but font family not being applied */ {
+h1, h2, h3, h4, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, .post-body h4, h1 span /* This selector works, but font family not being applied */ {
 	font-family: "Marcellus", sans-serif;
 	line-height: 110%;
 	font-weight: 400;
@@ -120,8 +120,9 @@ h3 {
 }
 
 h4 {
-	font-size: 1.25rem;
-	font-weight: 600;
+/*	font-size: 1.25rem;*/
+  font-size: clamp(1.286rem, 0.055vw + 1.268rem, 1.344rem);
+	font-weight: 400;
 }
 
 h5 {
@@ -156,10 +157,8 @@ a,
 .btn,
 .btn.btn--solid,
 .form-btn,
-h4,
 h5,
 h6,
-.h4,
 .h5,
 .h6,
 .form-control {
