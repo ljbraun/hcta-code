@@ -801,6 +801,10 @@ p.hcta-email-template__subject {
   flex-direction: column;
 }
 
+.hcta-flex-center {
+  align-items: center;
+}
+
 .hcta-content-block p {
   max-width: var(--hcta-max-width-ch);
 }
