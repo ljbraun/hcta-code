@@ -47,7 +47,8 @@ function createSkipLink() {
 		console.log(mainContent)
 		if (mainContent) {
 			mainContent.setAttribute("tabindex", "-1")
-			mainContent.focus()
+			mainContent.focus({ preventScroll: true })
+			window.scrollTo(0, mainContent.offsetTop)
 		}
 	})
 
