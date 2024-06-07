@@ -103,16 +103,20 @@ h1, h2, h3, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, h1 spa
 }
 
 h1,
-h1.panel__title {
-	font-size: clamp(1.875rem, 1.116vw + 1.518rem, 3.125rem);
+h1.panel__title, h1.post-body-title {
+/*	font-size: clamp(1.875rem, 1.116vw + 1.518rem, 3.125rem);*/
+  font-size: clamp(2.143rem, 1.365vw + 1.706rem, 3.571rem);
 }
 
 h2 {
-	font-size: clamp(1.688rem, 0.837vw + 1.42rem, 2.625rem);
+/*	font-size: clamp(1.688rem, 0.837vw + 1.42rem, 2.625rem);*/
+  font-size: clamp(1.929rem, 0.833vw + 1.663rem, 2.8rem);
 }
 
 h3 {
-	font-size: clamp(1.375rem, 0.335vw + 1.268rem, 1.75rem);
+/*	font-size: clamp(1.375rem, 0.335vw + 1.268rem, 1.75rem);*/
+  font-size: clamp(1.571rem, 0.506vw + 1.409rem, 2.1rem);
+
 }
 
 h4 {
