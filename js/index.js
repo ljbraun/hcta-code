@@ -5,5 +5,6 @@ import { initLessonNav } from "./lesson-nav"
 
 // in-lesson JS
 ;(() => {
+	console.log("JS initiated...")
 	window.addEventListener("load", initLessonNav)
 })()
