@@ -18,7 +18,7 @@
 	/*Borders */
 	--hcta-border-radius-btn: 4em;
 	--hcta-border-radius-sm: 0.5em;
-	--hcta-border-width: 3px;
+	--hcta-border-width: 2px;
 
 	/* Padding */
 	--hcta-block-padding-md: clamp(24px, 1.969vw + 0.87rem, 56px);
@@ -337,20 +337,23 @@ div.comments {
 
 /* Complete lesson button */
 a.post-actions-complete {
-	border: 2px solid var(--hcta-primary);
 	text-decoration: none;
 }
 
 a.post-actions-complete:hover {
 	background-color: var(--hcta-primary);
-  border: 2px solid var(--hcta-primary);
+  border: var(--hcta-border-width) solid var(--hcta-primary);
 	color: var(--hcta-light-text);
 }
 
 [data-post-completion-toggle="true"] { /* Lesson Completed! button state */
   background-color: var(--hcta-success-green);
   color: var(--hcta-light-text);
-  border: 2px solid var(--hcta-success-green);
+  border: var(--hcta-border-width) solid var(--hcta-success-green);
+}
+
+[data-post-completion-toggle="false"] {
+  border: var(--hcta-border-width) solid var(--hcta-primary);
 }
 
 @media (max-width: 991px) { /* Making button text accessible size on mobile */
@@ -373,7 +376,7 @@ a.post-actions-complete:hover {
 
 /* Favourite lesson star button */
 .post-actions-favorite {
-	border: 2px solid var(--hcta-primary);
+	border: var(--hcta-border-width) solid var(--hcta-primary);
 }
 
 @media (max-width: 991px) {
