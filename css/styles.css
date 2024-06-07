@@ -343,11 +343,14 @@ a.post-actions-complete {
 
 a.post-actions-complete:hover {
 	background-color: var(--hcta-primary);
+  border: 2px solid var(--hcta-primary);
 	color: var(--hcta-light-text);
 }
 
 [data-post-completion-toggle="true"] { /* Lesson Completed! button state */
   background-color: var(--hcta-success-green);
+  color: var(--hcta-light-text);
+  border: 2px solid var(--hcta-success-green);
 }
 
 @media (max-width: 991px) { /* Making button text accessible size on mobile */
