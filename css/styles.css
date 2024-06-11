@@ -357,6 +357,7 @@ a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favor
 
 [data-post-completion-toggle="true"]:hover {
 	filter: brightness(120%);
+	color: var(--hcta-light-text);
 }
 
 [data-post-completion-toggle="false"] {
