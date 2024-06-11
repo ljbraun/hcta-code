@@ -173,7 +173,7 @@ h6,
 .btn.btn-primary,
 .btn.btn--solid,
 .form-btn,
-.products .btn {
+.products .btn, a.btn {
 	font-weight: 600;
 	font-size: 1rem;
 	background-color: var(--hcta-primary);
