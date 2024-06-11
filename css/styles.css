@@ -108,6 +108,10 @@ h1.panel__title, h1.post-body-title {
   font-size: clamp(2.143rem, 1.365vw + 1.706rem, 3.571rem);
 }
 
+h1.hcta-h1-small { /* H1 for landing pages */
+	font-size: clamp(1.8rem, 1.052vw + 1.463rem, 2.9rem);
+}
+
 h2 {
 /*	font-size: clamp(1.688rem, 0.837vw + 1.42rem, 2.625rem);*/
   font-size: clamp(1.929rem, 0.833vw + 1.663rem, 2.8rem);
