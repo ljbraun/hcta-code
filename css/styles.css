@@ -173,9 +173,9 @@ h6,
 .btn.btn-primary,
 .btn.btn--solid,
 .form-btn,
-.products .btn, a.btn {
+.products .btn, a.btn, .section.background-light a.btn {
 	font-weight: 600;
-	font-size: 1rem;
+	font-size: 1.05rem;
 	background-color: var(--hcta-primary);
 	color: var(--hcta-light-text);
 	border: none;
@@ -199,7 +199,7 @@ p.subheading {
 body a,
 p a,
 li a,
-.block.background-light a, .section.background-light a.btn {
+.block.background-light a, .section.background-light a:not(.btn) {
 	color: var(--hcta-primary);
 	text-decoration: underline;
 	font-weight: 600;
