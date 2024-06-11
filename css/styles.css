@@ -1014,6 +1014,7 @@ p.hcta-email-template__subject {
 /* 4-card row */
 .block-type--feature.col-3 {
 	padding: 24px;
+	max-width: 400px;
 }
 
 /* Policy pages */
