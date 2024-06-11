@@ -344,9 +344,10 @@ a.post-actions-complete {
 }
 
 a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favorite.favorited:hover { /* Hover states for lesson complete + favourite buttons */
-	background-color: var(--hcta-primary);
-  border: var(--hcta-border-width) solid var(--hcta-primary);
-	color: var(--hcta-light-text);
+	/*background-color: var(--hcta-primary);*/
+  /*border: var(--hcta-border-width) solid var(--hcta-primary);*/
+	/*color: var(--hcta-light-text);*/
+	filter: brightness(120%);
 }
 
 [data-post-completion-toggle="true"] { /* Lesson Completed! button state */
