@@ -1008,13 +1008,12 @@ p.hcta-email-template__subject {
 /* Feature cards */
 
 .block-type--feature p {
-	text-align: left;
 	font-size: 1.1rem;
 }
 
 /* 4-card row */
 .block-type--feature.col-3 {
-	
+	padding: 24px;
 }
 
 /* Policy pages */
