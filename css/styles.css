@@ -1102,3 +1102,12 @@ p.hcta-email-template__subject {
 #block-1718108062387_1 .image {
 	max-width: 480px;
 }
+
+/* Hiding screen-reader-only h2 */
+.block-1718124887975_4 {
+	position: absolute;
+	width: 1px;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+	white-space: nowrap;
+}
