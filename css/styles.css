@@ -341,12 +341,7 @@ div.comments {
 /* Complete lesson button */
 a.post-actions-complete {
 	text-decoration: none;
-}
-
-a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favorite.favorited:hover { /* Hover states for lesson complete + favourite buttons */
-	/*background-color: var(--hcta-primary);*/
-  /*border: var(--hcta-border-width) solid var(--hcta-primary);*/
-	/*color: var(--hcta-light-text);*/
+	transition: all 0.2s ease-in-out;
 }
 
 [data-post-completion-toggle="true"] { /* Lesson Completed! button state */
@@ -367,7 +362,6 @@ a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favor
 @media (max-width: 991px) { /* Making button text accessible size on mobile */
   .post-actions-complete {
       font-size: 1rem;
-	  transition: all 0.2s ease-in-out;
   }
 }
 
