@@ -1005,6 +1005,11 @@ p.hcta-email-template__subject {
 	color: inherit;
 }
 
+.flash--success .flash-text {
+	font-size: 1.175rem;
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
 /* Back to home button (because home page not finished yet */
 #btn-1603137761792 {
 	display: none;
