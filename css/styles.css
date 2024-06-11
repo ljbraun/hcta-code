@@ -1079,7 +1079,7 @@ p.hcta-email-template__subject {
 	color: var(--hcta-success-green);
 }
 
-/* Back to home button (because home page not finished yet */
+/* Removing back to home button (because home page not finished yet */
 #btn-1603137761792 {
 	display: none;
 }
@@ -1091,4 +1091,13 @@ p.hcta-email-template__subject {
 	border-color: var(--hcta-error-red);
 	color: var(--hcta-light-text);
 	background-color: var(--hcta-error-red);
+}
+
+/* Course pages */
+
+/* Healthcare Traveler Certification page */
+
+/* Hero image */
+#block-1718108062387_1 .image {
+	max-width: 480px;
 }
