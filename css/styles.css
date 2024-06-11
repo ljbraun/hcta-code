@@ -129,8 +129,7 @@ h3 {
 
 }
 
-h4 {
-/*	font-size: 1.25rem;*/
+h4, h2.hcta-h4 {
   font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
 	font-weight: 400;
 }
@@ -1101,13 +1100,4 @@ p.hcta-email-template__subject {
 /* Hero image */
 #block-1718108062387_1 .image {
 	max-width: 480px;
-}
-
-/* Hiding screen-reader-only h2 */
-.block-1718124887975_4 {
-	position: absolute;
-	width: 1px;
-	clip: rect(0 0 0 0);
-	overflow: hidden;
-	white-space: nowrap;
 }
