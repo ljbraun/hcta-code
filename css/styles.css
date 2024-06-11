@@ -161,7 +161,7 @@ h5,
 h6,
 .h5,
 .h6,
-.form-control {
+.form-control, .form-group label, .flash--success .flash-text {
 	font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -205,9 +205,9 @@ li a:hover {
 }
 
 .form-group label {
-	font-family: 'IBM Plex Sans';
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-weight: 500;
+	line-height: 140%;
 }
 
 .form-group label:not(#new_member_session label) {
@@ -1024,7 +1024,6 @@ p.hcta-email-template__subject {
 
 .flash--success .flash-text {
 	font-size: 1.175rem;
-	font-family: "IBM Plex Sans", sans-serif;
 	color: var(--hcta-success-green);
 }
 
