@@ -1005,13 +1005,16 @@ p.hcta-email-template__subject {
 	color: inherit;
 }
 
-/* 4-card row */
-.block-type--feature.col-3 {
-	border: 3px solid red;
+/* Feature cards */
+
+.block-type--feature p {
+	text-align: left;
+	font-size: 1.1rem;
 }
 
-.block-type--feature.col-3 p {
-	text-align: left;
+/* 4-card row */
+.block-type--feature.col-3 {
+	
 }
 
 /* Policy pages */
