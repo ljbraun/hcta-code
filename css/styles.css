@@ -371,18 +371,18 @@ a.post-actions-complete {
 	transition: all 0.2s ease-in-out;
 }
 
-[data-post-completion-toggle="true"] { /* Lesson Completed! button state */
+a[data-post-completion-toggle="true"] { /* Lesson Completed! button state */
   background-color: var(--hcta-success-green);
   color: var(--hcta-light-text);
   border: var(--hcta-border-width) solid var(--hcta-success-green);
 }
 
-[data-post-completion-toggle="true"]:hover {
+a[data-post-completion-toggle="true"]:hover {
 	filter: brightness(120%);
 	color: var(--hcta-light-text);
 }
 
-[data-post-completion-toggle="false"] {
+a[data-post-completion-toggle="false"] {
   border: var(--hcta-border-width) solid var(--hcta-primary);
 }
 
