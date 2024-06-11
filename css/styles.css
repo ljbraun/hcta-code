@@ -948,6 +948,12 @@ p.hcta-email-template__subject {
 	text-decoration: underline;
 }
 
+/* Logged in user avatar */
+.user__avatar {
+	width: 2.6rem;
+	border: 1px solid var(--hcta-light-text);
+}
+
 /* Footer */
 .footer.background-dark {
 	background-color: var(--hcta-dark-bg);
