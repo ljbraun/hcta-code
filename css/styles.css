@@ -502,6 +502,7 @@ a[data-post-completion-toggle="false"]:hover {
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
+	max-width: 392px;
 }
 
 /* 2-col heading */
