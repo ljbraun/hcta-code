@@ -16,7 +16,7 @@
 	--hcta-success-green: #185c00;
 
 	/*Borders */
-	--hcta-border-radius-btn: 4em;
+	--hcta-border-radius-btn: 0.3em;
 	--hcta-border-radius-sm: 0.5em;
 	--hcta-border-width: 2px;
 
@@ -186,6 +186,12 @@ h6,
 	border: none;
 	border-radius: var(--hcta-border-radius-btn);
 	text-decoration: none;
+}
+
+/* Button with secondary colour background */
+[kjb-settings-id="sections_dashboard_welcome_settings_resume"] {
+	background-color: var(--hcta-secondary);
+    color: var(--hcta-dark-text);
 }
 
 body,
