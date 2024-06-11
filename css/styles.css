@@ -367,6 +367,7 @@ a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favor
 @media (max-width: 991px) { /* Making button text accessible size on mobile */
   .post-actions-complete {
       font-size: 1rem;
+	  transition: all 0.2s ease-in-out;
   }
 }
 
@@ -401,6 +402,7 @@ a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favor
 
 .post-actions-favorite.favorited:hover {
 	background: var(--hcta-success-green);
+	border: var(--hcta-border-width) solid var(--hcta-success-green);
 	color: var(--hcta-light-text);
 	filter: brightness(120%);
 }
