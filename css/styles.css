@@ -408,7 +408,8 @@ a.post-actions-complete {
 .post-actions-favorite {
 	border: var(--hcta-border-width) solid var(--hcta-primary);
   color: var(--hcta-primary);
-  font-size: 1.2rem;
+  font-size: 1rem;
+  border-radius: var(--hcta-border-radius-btn);
 }
 
 .post-actions-favorite.favorited {
