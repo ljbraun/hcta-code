@@ -395,6 +395,10 @@ a.post-actions-complete:hover, .post-actions-favorite:hover, .post-actions-favor
   border: var(--hcta-border-width) solid var(--hcta-success-green);
 }
 
+.post-actions-favorite:hover {
+	border: var(--hcta-border-width) solid var(--hcta-dark-text);
+}
+
 .post-actions-favorite.favorited:hover {
 	background: var(--hcta-success-green);
 	color: var(--hcta-light-text);
