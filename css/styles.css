@@ -204,6 +204,12 @@ li a:hover {
 	color: var(--hcta-dark-text);
 }
 
+.form-group label {
+	font-family: 'IBM Plex Sans';
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
 .form-group label:not(#new_member_session label) {
 	color: var(--hcta-dark-text) !important;
 }
@@ -1030,7 +1036,7 @@ p.hcta-email-template__subject {
 /* Log In page */
 
 /* Making alert accessible colour contrast */
-.alert--danger {
+.alert--danger, .parsley-errors-list {
 	border-color: var(--hcta-error-red);
 	color: var(--hcta-light-text);
 	background-color: var(--hcta-error-red);
