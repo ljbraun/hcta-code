@@ -1005,6 +1005,11 @@ p.hcta-email-template__subject {
 	color: inherit;
 }
 
+/* 4-card row */
+.block-type--feature.col-3 {
+	border: 3px solid red;
+}
+
 /* Policy pages */
 .hcta-policy h1 {
 	margin-top: 0;
