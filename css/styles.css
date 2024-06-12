@@ -129,7 +129,7 @@ h3 {
 
 }
 
-h4, h2.hcta-h4 {
+h4, h2.hcta-h4, h3.hcta-h4 {
   font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
 	font-weight: 400;
 }
