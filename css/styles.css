@@ -994,6 +994,10 @@ p.hcta-email-template__subject {
 	align-items: center;
 }
 
+.hcta-content-block h1, .hcta-content-block h2, .hcta-content-block h3, .hcta-content-block h4, .hcta-content-block h5, .hcta-content-block h6 {
+	margin-bottom: 16px;
+}
+
 .hcta-content-block p {
 	max-width: var(--hcta-max-width-ch);
 }
