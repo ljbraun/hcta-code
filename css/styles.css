@@ -14,6 +14,7 @@
 	--hcta-accent-2: #c9c9c9;
 	--hcta-error-red: #910000;
 	--hcta-success-green: #185c00;
+	--hcta-white: #ffffff;
 
 	/*Borders */
 	--hcta-border-radius-btn: 0.3em;
@@ -231,6 +232,14 @@ body a:hover:not(.btn),
 p a:hover,
 li a:hover {
 	color: var(--hcta-dark-text);
+}
+
+.section.background-dark a:not(.btn) {
+	color: var(--hcta-white);
+}
+
+.section.background-dark a:hover:not(.btn) {
+	color: var(--hcta-secondary);
 }
 
 .form-group label {
