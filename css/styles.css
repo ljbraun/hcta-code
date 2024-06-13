@@ -206,7 +206,7 @@ ol {
 	line-height: 180%;
 }
 
-p.subheading {
+p.hcta-text-lg {
 	font-size: clamp(1.2rem, 0.287vw + 1.108rem, 1.5rem);
 }
 
