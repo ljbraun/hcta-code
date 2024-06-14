@@ -1119,3 +1119,9 @@ p.hcta-email-template__subject {
 #block-1718129212883_1, #block-1718129212883_0 {
 	padding: 0;
 }
+
+/* Announcements Page */
+
+[kjb-settings-id="sections_1597945926220_settings_text_search_placeholder"] input::placeholder {
+	color: var(--hcta-dark-text);
+}
