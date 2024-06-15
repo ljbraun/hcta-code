@@ -486,7 +486,7 @@ a[data-post-completion-toggle="false"]:hover {
 }
 
 /* Expected reading time */
-.hcta-expected-reading-time { /* Making sure icon positioning works */
+.post-body .hcta-expected-reading-time { /* Making sure icon positioning works */
 	position: relative;
     margin-left: 24px;
 }
