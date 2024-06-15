@@ -237,19 +237,14 @@ li a:hover {
 /* Adding icon to links that open in new tab (for accessibility) */
 a[target="_blank"]::after {
 	content: "";
-	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/d3be60e-0827-2617-08c1-44bf1af564d_arrow-up-right-from-square-solid.png")
+	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/b2ab1-6760-d601-58f2-0c384b2fbe0_arrow-up-right-from-square-solid_primary-color.png")
 		no-repeat left center;
-	display: block;
+	display: inlin-block;
 	flex-shrink: 0;
-	width: 16px;
-	height: 16px;
-	margin-right: 8px;
-	vertical-align: middle;
-	background-size: contain;
-	margin-top: 8px;
-	position: absolute;
-	top: 0;
-	left: -24px;
+	width: 0.9rem;;
+	height: 0.9rem;;
+	margin-left: 4px;
+	margin-right: 4px;
 }
 
 .section.background-dark a:hover:not(.btn) {
