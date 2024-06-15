@@ -242,8 +242,8 @@ a[target="_blank"]::after {
 	display: inline-block;
 	background-size: contain;
 	flex-shrink: 0;
-	width: 0.9rem;;
-	height: 0.9rem;;
+	width: 0.85rem;
+	height: 0.85rem;
 	margin-left: 4px;
 	margin-right: 4px;
 }
