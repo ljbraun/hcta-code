@@ -486,7 +486,12 @@ a[data-post-completion-toggle="false"]:hover {
 }
 
 /* Expected reading time */
-.hcta-expected-reading-time::before {
+.hcta-expected-reading-time { /* Making sure icon positioning works */
+	position: relative;
+    margin-left: 24px;
+}
+
+.hcta-expected-reading-time::before { /* Adding icon */
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/1f4db7-e21a-03a-0ec4-f1bfdb2f3fd_clock-regular.png")
 		no-repeat left center;
