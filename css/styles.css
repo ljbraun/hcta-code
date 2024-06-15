@@ -235,9 +235,23 @@ li a:hover {
 }
 
 /* Adding icon to links that open in new tab (for accessibility) */
-a[target="_blank"]::after:not(.btn) {
+
+a[target="_blank"]::after { /* Primary colour icon */
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/b2ab1-6760-d601-58f2-0c384b2fbe0_arrow-up-right-from-square-solid_primary-color.png")
+		no-repeat left center;
+	display: inline-block;
+	background-size: contain;
+	flex-shrink: 0;
+	width: 0.85rem;
+	height: 0.85rem;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.section.background-dark a[target="_blank"]::after { /* White colour icon for links on dark backgrounds */
+	content: "";
+	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/850e5e4-8af5-2c3a-b8e8-86cfceddd64b_arrow-up-right-from-square-solid_white.png")
 		no-repeat left center;
 	display: inline-block;
 	background-size: contain;
