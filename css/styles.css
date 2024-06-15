@@ -188,7 +188,7 @@ strong {
 	background-color: var(--hcta-primary);
 	color: var(--hcta-light-text);
 	border: none;
-	border-radius: var(--hcta-border-radius-btn);
+	border-radius: var(--hcta-border-radius-btn) !important;
 	text-decoration: none;
 }
 
