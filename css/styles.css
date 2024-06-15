@@ -235,7 +235,7 @@ li a:hover {
 }
 
 /* Adding icon to links that open in new tab (for accessibility) */
-[:target="_blank"]:not(.btn) {
+a[target="_blank"]:after {
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/d3be60e-0827-2617-08c1-44bf1af564d_arrow-up-right-from-square-solid.png")
 		no-repeat left center;
