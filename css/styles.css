@@ -236,7 +236,7 @@ li a:hover {
 
 /* Adding icon to links that open in new tab (for accessibility) */
 
-a[target="_blank"]::after { /* Primary colour icon */
+a[target="_blank"]::after, .section.background-dark .background-light a[target="_blank"]::after { /* Primary colour icon */
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/b2ab1-6760-d601-58f2-0c384b2fbe0_arrow-up-right-from-square-solid_primary-color.png")
 		no-repeat left center;
@@ -514,10 +514,6 @@ a[data-post-completion-toggle="false"]:hover {
 	margin-top: 40px;
 	font-weight: 700;
 }
-
-/*.hcta-lesson-objectives span {
-	font-weight: 700;
-}*/
 
 /* In-lesson images */
 
