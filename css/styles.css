@@ -230,7 +230,7 @@ li a,
 
 body a:hover:not(.btn, .header a),
 p a:hover,
-li a:hover .section.background-dark .background-light a:hover {
+li a:hover {
 	color: var(--hcta-dark-text);
 }
 
