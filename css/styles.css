@@ -1021,14 +1021,13 @@ p.hcta-email-template__subject {
 
 .hcta-timeline__heading-nested::before {
 	content: '';
-	width: 10px;
-	height: 10px;
-	background-color: var(--hcta-primary);
-	border-radius: 100%;
-	display: block;
+    width: 32px;
+    height: 2px;
+    background-color: var(--hcta-primary);
+    display: block;
     position: absolute;
-    top: 6px;
-    left: -24px;
+    top: 10px;
+    left: -38px;
 }
 
 /* Website pages */
