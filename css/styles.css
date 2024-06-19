@@ -974,6 +974,20 @@ p.hcta-email-template__subject {
 	font-weight: 500;
 }
 
+/* Timeline */
+.hcta-timeline__block {
+	border-left: var(--hcta-border-width) solid var(--hcta-primary);
+	padding-left: 16px;
+}
+
+.hcta-timeline__heading::after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background-color: var(--hcta-primary);
+	border-radius: 100%;
+}
+
 /* Website pages */
 
 /* Navigation */
