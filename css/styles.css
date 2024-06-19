@@ -1030,6 +1030,18 @@ p.hcta-email-template__subject {
     left: -38px;
 }
 
+.hcta-timeline__heading-nested::after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-color: var(--hcta-primary);
+	border-radius: 100%;
+	display: block;
+    position: absolute;
+    top: 6px;
+    left: -24px;
+}
+
 /* Website pages */
 
 /* Navigation */
