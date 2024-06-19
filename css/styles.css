@@ -976,6 +976,10 @@ p.hcta-email-template__subject {
 
 /* Timeline */
 
+.hcta-timeline {
+	position: relative;
+}
+
 .hcta-timeline::before {
 	content: '';
 	width: 2px;
@@ -988,7 +992,6 @@ p.hcta-email-template__subject {
 }
 
 .hcta-timeline__block {
-	position: relative;
 	padding-left: 16px;
 }
 
