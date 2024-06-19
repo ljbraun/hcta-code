@@ -975,12 +975,8 @@ p.hcta-email-template__subject {
 }
 
 /* Timeline */
-.hcta-timeline__block {
-	position: relative;
-	padding-left: 16px;
-}
 
-.hcta-timeline__block::before {
+.hcta-timeline::before {
 	content: '';
 	width: 2px;
 	height: 100%;
@@ -989,6 +985,11 @@ p.hcta-email-template__subject {
     position: absolute;
     top: 9px;
     left: 0;
+}
+
+.hcta-timeline__block {
+	position: relative;
+	padding-left: 16px;
 }
 
 .hcta-timeline__heading {
