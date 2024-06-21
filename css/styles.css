@@ -1135,8 +1135,8 @@ p.hcta-email-template__subject {
 /* Buttons wrapper (for more than 1 button) */
 .hcta-buttons-wrapper {
 	display: flex;
-	flex-direction: column;
-	gap: 16px;
+	flex-direction: row;
+	gap: 8px;
 }
 
 /* Accessible social media icon links */
