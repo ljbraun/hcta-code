@@ -1132,27 +1132,6 @@ p.hcta-email-template__subject {
 	max-width: 400px;
 }
 
-/* Scrollbars */
-/* width */
-::-webkit-scrollbar {
-	width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-	background: var(--hcta-secondary-bg-pale);
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: var(--hcta-primary);
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: var(--hcta-dark-bg);
-  }
-
 /* Policy pages */
 .hcta-policy h1 {
 	margin-top: 0;
@@ -1247,5 +1226,12 @@ p.hcta-email-template__subject {
 /* Announcements Page */
 
 [kjb-settings-id="sections_1597945926220_settings_text_search_placeholder"] input::placeholder {
+	color: var(--hcta-dark-text);
+}
+
+/* Blog */
+
+/* Search placeholder colour */
+.sidebar-search__form input::placeholder {
 	color: var(--hcta-dark-text);
 }
