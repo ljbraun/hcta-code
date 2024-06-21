@@ -1132,6 +1132,11 @@ p.hcta-email-template__subject {
 	max-width: 400px;
 }
 
+/* Accessible social media icon links */
+.hcta-social-media-link {
+	max-width: 3.5rem;
+}
+
 /* Policy pages */
 .hcta-policy h1 {
 	margin-top: 0;
