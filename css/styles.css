@@ -907,7 +907,7 @@ svg.hcta-icon--nurse {
 	max-width: 1.9rem;
 }
 
-/* Email Templates (for copy-pasting */
+/* Email templates within lessons (for copy-pasting into email) */
 .hcta-email-template {
 	font-family: sans-serif;
 	font-size: 0.938rem;
@@ -1100,6 +1100,12 @@ p.hcta-email-template__subject {
 
 .hcta-flex-center {
 	align-items: center;
+}
+
+/* For a block of content that forms the hero section on its own */
+.hcta-hero-block {
+	min-height: 65vh;
+	justify-content: center;
 }
 
 .hcta-content-block h1, .hcta-content-block h2, .hcta-content-block h3, .hcta-content-block h4, .hcta-content-block h5, .hcta-content-block h6 {
