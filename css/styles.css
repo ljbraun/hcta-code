@@ -1071,17 +1071,18 @@ p.hcta-email-template__subject {
 	text-decoration: none;
 }
 
-#block-1555988487706 .dropdown__item a:active {
+/* Use the code below to style the active class (need to use JS to add .active first) */
+/*#block-1555988487706 .dropdown__item a.active {
 	color: var(--hcta-primary);
 	text-decoration: underline;
-}
+}*/
 
 /* Footer */
 .footer.background-dark {
 	background-color: var(--hcta-dark-bg);
 }
 
-.footer.background-dark #block-1602193175296 .link-list__link {
+.footer.background-dark #block-1602193175296 .link-list__link, .footer.background-dark #block-1719342394233 .link-list__link {
 	color: var(--hcta-light-text);
 	text-decoration: none;
 	font-size: 1rem;
@@ -1089,7 +1090,7 @@ p.hcta-email-template__subject {
 	letter-spacing: 0.3px;
 }
 
-.footer.background-dark #block-1602193175296 .link-list__link:hover {
+.footer.background-dark #block-1602193175296 .link-list__link:hover, .footer.background-dark #block-1719342394233 .link-list__link:hover {
 	color: var(--hcta-secondary);
 	text-decoration: underline;
 }
