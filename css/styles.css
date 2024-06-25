@@ -1066,6 +1066,11 @@ p.hcta-email-template__subject {
 	border: 1px solid var(--hcta-light-text);
 }
 
+/* Logged in user dropdown menu */
+.dropdown__item a:active {
+	color: var(--hcta-accent);
+}
+
 /* Footer */
 .footer.background-dark {
 	background-color: var(--hcta-dark-bg);
