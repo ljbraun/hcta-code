@@ -1154,6 +1154,8 @@ p.hcta-email-template__subject {
 	display: flex;
 	flex-direction: row;
 	gap: 8px;
+	flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Accessible social media icon links */
