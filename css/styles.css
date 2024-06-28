@@ -228,7 +228,7 @@ li a,
 	line-height: 180%;
 }
 
-body a:hover:not(.btn, .header a),
+body p a:hover:not(.btn, .header a),
 p a:hover,
 li a:hover {
 	color: var(--hcta-dark-text);
