@@ -545,7 +545,7 @@ a[data-post-completion-toggle="false"]:hover {
 	gap: 24px;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 64px;
+	margin-bottom: 40px;
 }
 
 .post-body div.hcta-2col:first-of-type {
