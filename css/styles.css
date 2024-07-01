@@ -547,7 +547,7 @@ a[data-post-completion-toggle="false"]:hover {
 	margin-top: 64px;
 }
 
-.post-body div.hcta-2col ul {
+.post-body ul:has(.hcta-2col) {
 	padding: 0;
 }
 
