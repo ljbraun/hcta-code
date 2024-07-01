@@ -549,7 +549,7 @@ a[data-post-completion-toggle="false"]:hover {
 }
 
 .post-body div.hcta-2col:first-of-type {
-	margin-top: 64px;
+	margin-top: 40px;
 }
 
 .post-body ul:has(.hcta-2col) {
