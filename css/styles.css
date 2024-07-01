@@ -534,7 +534,7 @@ a[data-post-completion-toggle="false"]:hover {
 /* 2-columns text + image */
 
 /* 2-column wrapper div */
-.post-body div.hcta-2col {
+.post-body .hcta-2col {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
