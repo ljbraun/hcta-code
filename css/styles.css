@@ -527,6 +527,11 @@ a[data-post-completion-toggle="false"]:hover {
 	width: 100%;
 }
 
+.hcta-lesson-img--sm {
+	max-width: 19rem;
+    width: 100%;
+}
+
 .hcta-lesson-img-float {
 	max-width: 24rem;
 }
