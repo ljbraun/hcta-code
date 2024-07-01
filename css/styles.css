@@ -547,6 +547,10 @@ a[data-post-completion-toggle="false"]:hover {
 	margin-top: 64px;
 }
 
+.post-body div.hcta-2col ul {
+	padding: 0;
+}
+
 /* Reversing 2-col img side on desktop */
 .post-body .hcta-2col:nth-of-type(even) {
 	flex-direction: row-reverse;
