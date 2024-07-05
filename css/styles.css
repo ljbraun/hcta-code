@@ -199,8 +199,9 @@ a.btn.btn-secondary-color, a[kjb-settings-id="sections_dashboard_welcome_setting
 }
 
 a.btn.btn-outline {
-	background-color: none;
+	background-color: transparent;
 	border: var(--hcta-border-width) solid var(--hcta-primary);
+	color: var(--hcta-primary);
 }
 
 body,
