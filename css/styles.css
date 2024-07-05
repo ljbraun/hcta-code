@@ -1146,6 +1146,14 @@ p.hcta-email-template__subject {
 	color: inherit;
 }
 
+/* For images with thin border accent */
+.hcta-offset-border {
+	padding: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--hcta-secondary);
+}
+
 /* Feature cards */
 
 .block-type--feature p {
