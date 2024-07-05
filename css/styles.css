@@ -198,6 +198,11 @@ a.btn.btn-secondary-color, a[kjb-settings-id="sections_dashboard_welcome_setting
     color: var(--hcta-dark-text);
 }
 
+a.btn.btn-outline {
+	background-color: none;
+	border: var(--hcta-border-width) solid var(--hcta-primary);
+}
+
 body,
 p,
 ul,
