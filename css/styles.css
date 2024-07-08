@@ -1219,6 +1219,10 @@ figcaption.hcta-figcaption {
 	flex-direction: column;
 }
 
+.hcta-cta-block__btn {
+	width: fit-content;
+}
+
 .hcta-cta-block__img {
 	object-fit: cover;
 	height: 100%;
@@ -1237,6 +1241,7 @@ figcaption.hcta-figcaption {
 	}
 	.hcta-cta-block__text-wrapper {
 		align-items: center;
+		text-align: center;
 	}
 }
 
