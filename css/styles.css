@@ -1208,20 +1208,19 @@ figcaption.hcta-figcaption {
 
 .hcta-cta-block {
 	background-color: var(--hcta-white);
-	display: flex;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
 }
 
 .hcta-cta-block__text-wrapper {
 	padding: clamp(1.5rem, 6.897vw + 0.121rem, 5rem);
 }
 
-.hcta-cta-block__img-wrapper {
-	height: 100%;
-	overflow: hidden;
-}
-
 .hcta-cta-block__img {
 	object-fit: cover;
+	height: 100%;
+	overflow: hidden;
+	clip-path: polygon(18% 0%, 100% 0, 100% 100%, 0% 100%);
 }
 
 /* Policy pages */
