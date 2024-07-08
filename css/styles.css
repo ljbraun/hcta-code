@@ -1215,13 +1215,15 @@ figcaption.hcta-figcaption {
 .hcta-cta-block__text-wrapper {
 	padding: clamp(1.5rem, 5.517vw + 0.397rem, 4rem);
 	align-self: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .hcta-cta-block__img {
 	object-fit: cover;
 	height: 100%;
+	width: 100%;
 	overflow: hidden;
-	clip-path: polygon(18% 0%, 100% 0, 100% 100%, 0% 100%);
 }
 
 @media only screen and (min-width: 720px) {
@@ -1230,6 +1232,15 @@ figcaption.hcta-figcaption {
 	}
 	.hcta-cta-block__img {
 		clip-path: polygon(18% 0%, 100% 0, 100% 100%, 0% 100%);
+	}
+}
+
+@media only screen and (max-width: 719px) {
+	.hcta-cta-block__img {
+		max-height: 20rem;
+	}
+	.hcta-cta-block__text-wrapper {
+		align-items: center;
 	}
 }
 
