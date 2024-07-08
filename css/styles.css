@@ -1115,6 +1115,10 @@ p.hcta-email-template__subject {
 
 /* Global website elements */
 
+figure {
+	margin: 0;
+}
+
 figcaption {
 	text-align: center;
     font-weight: 500;
@@ -1122,6 +1126,7 @@ figcaption {
 	font-size: 1rem;
 }
 
+/* Figcaption block with bg colour */
 figcaption.hcta-figcaption {
 	background-color: var(--hcta-secondary);
     width: fit-content;
