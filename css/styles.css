@@ -1211,12 +1211,16 @@ figcaption.hcta-figcaption {
 }
 
 .hcta-cta-block__text-wrapper {
-	padding: clamp(1.5rem, 5.517vw + 0.397rem, 4rem);
+	padding: clamp(1.5rem, 4.926vw + 0.515rem, 4rem);
 }
 
 .hcta-cta-block__img-wrapper {
 	height: 100%;
 	overflow: hidden;
+}
+
+.hcta-cta-block__img {
+	object-fit: cover;
 }
 
 /* Policy pages */
