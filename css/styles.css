@@ -1209,11 +1209,12 @@ figcaption.hcta-figcaption {
 .hcta-cta-block {
 	background-color: var(--hcta-white);
 	display: grid;
-	grid-template-columns: 3fr 2fr;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .hcta-cta-block__text-wrapper {
 	padding: clamp(1.5rem, 6.897vw + 0.121rem, 5rem);
+	align-self: center;
 }
 
 .hcta-cta-block__img {
