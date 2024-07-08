@@ -1208,10 +1208,11 @@ figcaption.hcta-figcaption {
 
 .hcta-cta-block {
 	background-color: var(--hcta-white);
+	display: flex;
 }
 
 .hcta-cta-block__text-wrapper {
-	padding: clamp(1.5rem, 4.926vw + 0.515rem, 4rem);
+	padding: clamp(1.5rem, 6.897vw + 0.121rem, 5rem);
 }
 
 .hcta-cta-block__img-wrapper {
