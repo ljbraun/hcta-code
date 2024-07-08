@@ -182,7 +182,7 @@ strong {
 .btn.btn-primary,
 .btn.btn--solid,
 .form-btn,
-.products .btn, a.btn, .section.background-light a.btn .block.background-light a.btn {
+.products .btn, a.btn, .section.background-light a.btn, .block.background-light a.btn {
 	font-weight: 600;
 	font-size: 1.05rem;
 	background-color: var(--hcta-primary);
