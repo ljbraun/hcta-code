@@ -1209,7 +1209,7 @@ figcaption.hcta-figcaption {
 .hcta-cta-block {
 	background-color: var(--hcta-white);
 	display: grid;
-	grid-template-columns: repeat(1, minmax(0, 1fr));
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .hcta-cta-block__text-wrapper {
@@ -1224,20 +1224,16 @@ figcaption.hcta-figcaption {
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-}
-
-@media only screen and (min-width: 720px) {
-	.hcta-cta-block {
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-	}
-	.hcta-cta-block__img {
-		clip-path: polygon(18% 0%, 100% 0, 100% 100%, 0% 100%);
-	}
+	clip-path: polygon(18% 0%, 100% 0, 100% 100%, 0% 100%);
 }
 
 @media only screen and (max-width: 719px) {
+	.hcta-cta-block {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
 	.hcta-cta-block__img {
 		max-height: 20rem;
+		clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
 	}
 	.hcta-cta-block__text-wrapper {
 		align-items: center;
