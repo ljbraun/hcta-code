@@ -223,10 +223,10 @@ p.hcta-text-lg {
 	}
 }
 
-body a,
-p a,
+body a:not(.btn),
+p a:not(.btn),
 li a,
-.block.background-light a, .section.background-light a:not(.btn) {
+.block.background-light a:not(.btn), .section.background-light a:not(.btn) {
 	color: var(--hcta-primary);
 	text-decoration: underline;
 	font-weight: 600;
