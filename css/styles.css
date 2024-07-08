@@ -1213,7 +1213,7 @@ figcaption.hcta-figcaption {
 }
 
 .hcta-cta-block__text-wrapper {
-	padding: clamp(1.5rem, 6.897vw + 0.121rem, 5rem);
+	padding: clamp(1.5rem, 5.517vw + 0.397rem, 4rem);
 	align-self: center;
 }
 
