@@ -1121,6 +1121,14 @@ figcaption {
     margin-top: 8px;
 }
 
+figcaption.hcta-figcaption {
+	background-color: var(--hcta-secondary);
+    width: fit-content;
+    padding: 4px 24px;
+    margin: -24px auto 0 auto;
+    position: relative;
+}
+
 .block.background-light {
 	color: var(--hcta-dark-text);
 }
