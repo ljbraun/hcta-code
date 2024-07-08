@@ -1172,11 +1172,6 @@ figcaption.hcta-figcaption {
 	color: inherit;
 }
 
-/* White block on darker bg */
-.hcta-content-block--white {
-	background-color: var(--hcta-white);
-}
-
 /* For images with thin border accent */
 .hcta-offset-border {
 	padding: 12px;
@@ -1209,6 +1204,19 @@ figcaption.hcta-figcaption {
 /* Accessible social media icon links */
 .hcta-social-media-link {
 	max-width: 3rem; /* 48px (minimum accessible touch target size = 44px) */
+}
+
+.hcta-cta-block {
+	background-color: var(--hcta-white);
+}
+
+.hcta-cta-block__text-wrapper {
+	padding: clamp(1.5rem, 5.517vw + 0.397rem, 4rem);
+}
+
+.hcta-cta-block__img-wrapper {
+	height: 100%;
+	overflow: hidden;
 }
 
 /* Policy pages */
