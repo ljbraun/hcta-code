@@ -1172,6 +1172,11 @@ figcaption.hcta-figcaption {
 	color: inherit;
 }
 
+/* White block on darker bg */
+.hcta-content-block--white {
+	background-color: var(--hcta-white);
+}
+
 /* For images with thin border accent */
 .hcta-offset-border {
 	padding: 12px;
@@ -1235,11 +1240,6 @@ figcaption.hcta-figcaption {
 .flash--success .flash-text {
 	font-size: 1.175rem;
 	color: var(--hcta-success-green);
-}
-
-/* Removing back to home button (because home page not finished yet */
-#btn-1603137761792 {
-	display: none;
 }
 
 /* Log In page */
