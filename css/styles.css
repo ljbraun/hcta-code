@@ -199,9 +199,15 @@ a.btn.btn-secondary-color, a[kjb-settings-id="sections_dashboard_welcome_setting
 }
 
 a.btn.btn-outline {
-	background-color: transparent;
-	border: var(--hcta-border-width) solid var(--hcta-primary);
-	color: var(--hcta-primary);
+	background-color: transparent !important;
+	border: var(--hcta-border-width) solid var(--hcta-primary) !important;
+	color: var(--hcta-primary) !important;
+}
+
+a.btn.btn-outline:hover {
+	background-color: var(--hcta-secondary);
+	border: var(--hcta-border-width) solid var(--hcta-secondary);
+	color: var(--hcta-dark-bg);
 }
 
 body,
