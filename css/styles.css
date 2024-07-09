@@ -1193,7 +1193,7 @@ figcaption.hcta-figcaption {
 
 /* Feature cards */
 
-div.block:has(.hcta-3card-col) {
+div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	overflow: visible !important;
 }
 
@@ -1204,11 +1204,12 @@ div.block:has(.hcta-3card-col) {
 }
 
 .hcta-card {
-	padding: 24px;
+	padding: 32px;
 	max-width: 25rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 8px;
 	background-color: var(--hcta-white);
 	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.075);
 }
@@ -1220,11 +1221,20 @@ div.block:has(.hcta-3card-col) {
 
 .hcta-card__heading {
 	font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
+	text-align: center;
 }
 
 .hcta-card__text {
 	font-size: 1.1rem;
 	text-align: center;
+	margin-bottom: 0;
+}
+
+/* Card grid responsiveness */
+@media only screen and (max-width: 767px) {
+	.hcta-3card-col {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
 }
 
 .block-type--feature p { /* Kajabi default */
