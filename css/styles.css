@@ -1338,6 +1338,10 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	color: var(--hcta-dark-text) !important;
 }
 
+.hcta-img-card-block__heading {
+	color: var(--hcta-dark-text) !important;
+}
+
 /* Policy pages */
 .hcta-policy h1 {
 	margin-top: 0;
