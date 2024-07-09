@@ -1294,7 +1294,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	align-self: center;
 	display: flex;
 	flex-direction: column;
-	color: var(--hcta-text-dark) !important;
+	color: var(--hcta-dark-text) !important;
 }
 
 .hcta-cta-block__btn {
