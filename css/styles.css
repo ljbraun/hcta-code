@@ -1115,6 +1115,17 @@ p.hcta-email-template__subject {
 
 /* Global website elements */
 
+/* Focus states */
+.checkbox-field .form-control:focus-within, .checkbox-field .form-control:focus-visible {
+	outline-style: solid;
+	outline-color: var(--hcta-light-bg);
+	outline-width: 3px;
+	outline-offset: 3px;
+	z-index: 5;
+	box-shadow: 0 0 0 4px var(--hcta-dark-bg);
+	border-radius: 4px;
+}
+
 figure {
 	margin: 0;
 }
@@ -1131,7 +1142,7 @@ figcaption.hcta-figcaption {
 	background-color: var(--hcta-secondary);
     width: fit-content;
     padding: 4px 24px;
-    margin: -24px auto 0 auto;
+    margin: -22px auto 0 auto;
     position: relative;
 }
 
