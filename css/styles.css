@@ -1267,12 +1267,11 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 .hcta-buttons-wrapper {
 	display: flex;
 	flex-direction: row;
-	gap: 8px;
 	flex-wrap: wrap;
     justify-content: center;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 768px) { /* left-aligned on desktop */
 	.hcta-buttons-wrapper--left-aligned {
 		justify-content: flex-start;
 	}
@@ -1320,6 +1319,22 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 		align-items: center;
 		text-align: center;
 	}
+}
+
+.hcta-img-card-block {
+	display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.hcta-img-card-block__img {
+	object-fit: cover;
+	height: 100%;
+}
+
+.hcta-img-card-block__text-wrapper {
+	padding: 64px;
+	justify-content: center;
+	background-color: var(--hcta-white);
 }
 
 /* Policy pages */
