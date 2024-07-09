@@ -1156,6 +1156,13 @@ figcaption.hcta-figcaption {
 	color: var(--hcta-dark-text);
 }
 
+/* For a block of content that forms the hero section on its own */
+.hcta-hero-block {
+	min-height: 65vh;
+	justify-content: center;
+}
+
+/* For regular blocks of content */
 .hcta-content-block {
 	display: flex;
 	flex-direction: column;
@@ -1165,17 +1172,11 @@ figcaption.hcta-figcaption {
 	align-items: center;
 }
 
-/* For a block of content that forms the hero section on its own */
-.hcta-hero-block {
-	min-height: 65vh;
-	justify-content: center;
-}
-
 .hcta-content-block h1, .hcta-content-block h2, .hcta-content-block h3, .hcta-content-block h4, .hcta-content-block h5, .hcta-content-block h6 {
 	margin-bottom: 16px;
 }
 
-.hcta-content-block p {
+.hcta-content-block p, .hcta-content-block ul, .hcta-content-block ol {
 	max-width: var(--hcta-max-width-ch);
 }
 
