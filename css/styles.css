@@ -205,9 +205,9 @@ a.btn.btn-outline {
 }
 
 a.btn.btn-outline:hover {
-	background-color: var(--hcta-secondary);
-	border: var(--hcta-border-width) solid var(--hcta-secondary);
-	color: var(--hcta-dark-bg);
+	background-color: var(--hcta-secondary) !important;
+	border: var(--hcta-border-width) solid var(--hcta-secondary) !important;
+	color: var(--hcta-dark-bg) !important;
 }
 
 body,
@@ -1270,6 +1270,12 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	gap: 8px;
 	flex-wrap: wrap;
     justify-content: center;
+}
+
+@media only screen and (min-width: 767px) {
+	.hcta-buttons-wrapper--left-aligned {
+		justify-content: flex-start;
+	}
 }
 
 /* Accessible social media icon links */
