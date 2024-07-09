@@ -1322,6 +1322,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 }
 
 /* Img + text card */
+
 .hcta-img-card-block {
 	display: grid;
     grid-template-columns: 2fr 3fr;
@@ -1341,6 +1342,21 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 
 .hcta-img-card-block__heading {
 	color: var(--hcta-dark-text) !important;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 879px) {
+	.hcta-img-card-block {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+	.hcta-img-card-block__img {
+		width: 100%;
+		height: auto;
+		order: 1;
+	}
+	.hcta-img-card-block__heading {
+		text-align: center;
+	}
 }
 
 /* Policy pages */
