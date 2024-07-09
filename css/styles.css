@@ -1197,15 +1197,14 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	overflow: visible !important;
 }
 
-/* 3-card layout */
-.hcta-3card-col {
+.hcta-3card-col { /* 3-card layout */
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 24px;
 	justify-items: center;
 }
 
-.hcta-2card-col {
+.hcta-2card-col { /* 2-card layout */
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	gap: 24px;
@@ -1214,7 +1213,6 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 
 .hcta-card {
 	padding: 32px;
-	max-width: 25rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1239,10 +1237,13 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	margin-bottom: 0;
 }
 
-/* Card grid responsiveness */
-@media only screen and (max-width: 767px) {
-	.hcta-3card-col {
+
+@media only screen and (max-width: 767px) { /* Card grid responsiveness */
+	.hcta-3card-col, .hcta-2card-col {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+	.hcta-card {
+		max-width: 25rem;
 	}
 }
 
