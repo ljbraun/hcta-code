@@ -1193,9 +1193,15 @@ figcaption.hcta-figcaption {
 
 /* Feature cards */
 
+
+div.blockbox-shadow-.aos-init.aos-animate:has(.hcta-3card-col) { /* Making sure box shadow is visible */
+	overflow: visible;
+}
+
 .hcta-3card-col {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 24px;
 }
 
 .hcta-card {
