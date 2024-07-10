@@ -1205,7 +1205,7 @@ figcaption.hcta-figcaption {
 /* Slanted rectangle bg */
 .hcta-slanted-rec {
 	background-color: var(--hcta-secondary);
-    height: 180px;
+    height: 33%;
 	width: 100%;
     clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
