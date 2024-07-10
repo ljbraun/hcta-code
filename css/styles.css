@@ -22,6 +22,7 @@
 	--hcta-border-width: 2px;
 
 	/* Padding */
+	--hcta-page-margin: clamp(10rem, -3.75vw + 11.2rem, 4rem), clamp(2.4rem, 1vw + 2.08rem, 4rem);
 	--hcta-block-padding-md: clamp(24px, 1.969vw + 0.87rem, 56px);
 
 	/* Widths */
