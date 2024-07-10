@@ -1200,9 +1200,19 @@ figcaption.hcta-figcaption {
     grid-template-columns: 4fr 3fr;
     max-width: var(--hcta-max-width-container);
     align-items: center;
-    gap: 80px;
+    gap: clamp(40px, 4.255vw + 26.38px, 80px);
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.hcta-2-col {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+	.hcta-2-col__img-wrapper {
+		margin: 0 auto;
+		max-width: 25rem;
+	}
 }
 
 /* Slanted rectangle bg */
