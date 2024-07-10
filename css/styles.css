@@ -26,6 +26,7 @@
 
 	/* Widths */
 	--hcta-max-width-ch: 58ch;
+	--hcta-max-width-container: 78.75rem; /* 1260px */
 }
 
 /*
@@ -1195,7 +1196,7 @@ figcaption.hcta-figcaption {
 .hcta-2-col {
 	display: grid;
     grid-template-columns: 4fr 3fr;
-    max-width: 78.75rem;
+    max-width: var(--hcta-max-width-container);
     align-items: center;
     gap: 80px;
 	margin-left: auto;
@@ -1232,6 +1233,9 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 24px;
 	justify-items: center;
+	max-width: var(--hcta-max-width-container);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hcta-2card-col { /* 2-card layout */
