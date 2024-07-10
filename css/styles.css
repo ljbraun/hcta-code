@@ -199,7 +199,7 @@ a.btn.btn-secondary-color, a[kjb-settings-id="sections_dashboard_welcome_setting
 }
 
 a.btn.btn-outline {
-	background-color: transparent !important;
+	background-color: var(--hcta-white) !important;
 	border: var(--hcta-border-width) solid var(--hcta-primary) !important;
 	color: var(--hcta-primary) !important;
 }
@@ -1202,8 +1202,15 @@ figcaption.hcta-figcaption {
 	margin-right: auto;
 }
 
-.hcta-2-col__text-wrapper {
-
+/* Slanted rectangle bg */
+.hcta-slanted-rec {
+	background-color: var(--hcta-secondary);
+    height: 180px;
+	width: 100%;
+    clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /* For images with thin border accent */
