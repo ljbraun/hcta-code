@@ -1218,11 +1218,11 @@ figcaption.hcta-figcaption {
 /* Slanted rectangle bg */
 .hcta-slanted-rec {
 	background-color: var(--hcta-secondary);
-    height: 33%;
+    height: 44%;
 	width: 100%;
     clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
     position: absolute;
-    bottom: 0;
+    bottom: -80px;
     left: 0;
 }
 
