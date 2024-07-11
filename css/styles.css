@@ -1233,6 +1233,11 @@ figcaption.hcta-figcaption {
 	padding: 16px;
 }
 
+.hcta-img-accents__img {
+	position: relative;
+	z-index: 1;
+}
+
 .hcta-img-accents__top {
 	background-color: var(--hcta-secondary);
 	width: 33%;
