@@ -1237,7 +1237,7 @@ figcaption.hcta-figcaption {
 
 .hcta-img-accents {
 	position: relative;
-	padding: 16px;
+	padding: clamp(10px, 1.596vw + -04.11px, 16px);
 }
 
 .hcta-img-accents__img {
