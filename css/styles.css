@@ -1213,6 +1213,13 @@ figcaption.hcta-figcaption {
 		margin: 0 auto;
 		max-width: 25rem;
 	}
+	.hcta-2-col--img-left {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+}
+
+.hcta-2-col--img-left {
+	grid-template-columns: 3fr 4fr;
 }
 
 /* Slanted rectangle bg */
