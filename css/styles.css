@@ -1305,11 +1305,13 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 .hcta-card__heading {
 	font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
 	text-align: center;
+	color: var(--hcta-dark-text) !important;
 }
 
 .hcta-card__text {
 	font-size: 1.1rem;
 	text-align: center;
+	color: var(--hcta-dark-text) !important;
 	margin-bottom: 0;
 }
 
