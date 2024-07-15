@@ -378,8 +378,8 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 }
 
 /* Non-active lessons */
-.product-outline-category a,
-.product-outline-subcategory a,
+h3.product-outline-category a,
+h3.product-outline-subcategory a,
 .product-outline-post:not(.product-outline-post.active) {
 	font-weight: 400;
 	color: var(--hcta-dark-text-pale);
