@@ -1176,6 +1176,8 @@ figcaption.hcta-figcaption {
 .hcta-content-block {
 	display: flex;
 	flex-direction: column;
+	max-width: var(--hcta-max-width-ch);
+    margin: 0 auto;
 }
 
 .hcta-flex-center {
