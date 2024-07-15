@@ -473,6 +473,7 @@ a[data-post-completion-toggle="false"]:hover {
   color: var(--hcta-primary);
   font-size: 1rem;
   border-radius: var(--hcta-border-radius-btn);
+  padding: 4px 10px;
 }
 
 .post-actions-favorite.favorited {
@@ -494,7 +495,7 @@ a[data-post-completion-toggle="false"]:hover {
 
 @media (max-width: 991px) {
   .post-actions-favorite {
-      padding: 8px;
+      padding: 1.5px 8px;
       margin-right: 6px;
       font-size: 1rem;
   }
@@ -532,7 +533,7 @@ a[data-post-completion-toggle="false"]:hover {
 
 /* In-lesson images */
 
-.post-body p:has(img) {
+.post-body p:has(img), .post-body  {
 	display: flex;
 	justify-content: center;
 }
