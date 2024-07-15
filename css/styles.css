@@ -758,6 +758,9 @@ ul.hcta-unstyled-list {
 	vertical-align: middle;
 	background-size: contain;
 	margin-top: 8px;
+	position: absolute;
+	top: 0;
+	left: -24px;
 }
 
 /* Question mark bullet point */
@@ -1188,8 +1191,6 @@ figcaption.hcta-figcaption {
 
 .hcta-content-block p, .hcta-content-block ul, .hcta-content-block ol {
 	max-width: var(--hcta-max-width-ch);
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .hcta-content-block--light {
