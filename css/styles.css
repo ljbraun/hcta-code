@@ -386,6 +386,12 @@ h3.product-outline-subcategory a,
 	text-decoration: none;
 }
 
+/* Adding line above module nav link */
+h3.product-outline-category {
+	border-top: 1px solid var(--hcta-primary);
+    padding-top: 30px;
+}
+
 /* Adding explainer text below intro videos */
 .main-content .main-content-video {
 	background: var(--hcta-primary);
