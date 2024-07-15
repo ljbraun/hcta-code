@@ -1358,6 +1358,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	flex-direction: row;
 	flex-wrap: wrap;
     justify-content: center;
+	gap: 8px;
 }
 
 @media only screen and (min-width: 768px) { /* left-aligned on desktop */
