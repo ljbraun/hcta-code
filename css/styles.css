@@ -1177,7 +1177,12 @@ figcaption.hcta-figcaption {
 
 .hcta-bg-img-banner__content-wrapper {
 	color: var(--hcta-light-text);
+	position: relative;
 	z-index: 2;
+}
+
+.hcta-bg-img-banner__heading {
+	color: var(--hcta-light-text);
 }
 
 .hcta-bg-img-banner__img {
