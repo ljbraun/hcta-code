@@ -1169,10 +1169,15 @@ figcaption.hcta-figcaption {
 	color: var(--hcta-dark-text);
 }
 
-/* Blocks with background img */
+/* Banner with background img */
 .hcta-bg-img-banner {
 	position: relative;
 	padding: var(--hcta-section-spacing) var(--hcta-page-margin);
+}
+
+.hcta-bg-img-banner__content-wrapper {
+	color: var(--hcta-light-text);
+	z-index: 2;
 }
 
 .hcta-bg-img-banner__img {
@@ -1184,7 +1189,7 @@ figcaption.hcta-figcaption {
 	z-index: -1;
 }
 
-.hcta-bg-img-banner__img::before {
+.hcta-bg-img-banner::before { /* overlay */
 	content: '';
 	background: var(--hcta-dark-bg);
 	opacity: 0.7;
