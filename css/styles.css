@@ -97,7 +97,7 @@ html { /* Need to test this still - doesn't work yet */
 	font-style: normal;
 }
 
-h1, h2, h3, h4, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, .post-body h4, h1 span /* This selector works, but font family not being applied */ {
+h1, h2, h3, h4, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, .post-body h4, p.hcta-h2, h1 span /* This selector works, but font family not being applied */ {
 	font-family: "Marcellus", sans-serif;
 	line-height: 110%;
 	font-weight: 400;
@@ -113,7 +113,6 @@ h1, h2, h3, h4, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h
 
 h1,
 h1.panel__title, h1.post-body-title {
-/*	font-size: clamp(1.875rem, 1.116vw + 1.518rem, 3.125rem);*/
   font-size: clamp(2.143rem, 1.365vw + 1.706rem, 3.571rem);
 }
 
@@ -122,13 +121,11 @@ h1.hcta-h1-small { /* H1 for landing pages */
 	text-wrap: balance;
 }
 
-h2 {
-/*	font-size: clamp(1.688rem, 0.837vw + 1.42rem, 2.625rem);*/
+h2, p.hcta-h2 {
   font-size: clamp(1.929rem, 0.833vw + 1.663rem, 2.8rem);
 }
 
 h3 {
-/*	font-size: clamp(1.375rem, 0.335vw + 1.268rem, 1.75rem);*/
   font-size: clamp(1.571rem, 0.506vw + 1.409rem, 2.1rem);
 
 }
@@ -160,6 +157,15 @@ h6,
 	margin-top: 32px;
 	margin-bottom: 16px;
 	line-height: 120%;
+}
+
+h2.eyebrow-heading, h3.eyebrow-heading {
+	font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
+    color: var(--hcta-primary);
+    margin-bottom: 16px;
 }
 
 body,
