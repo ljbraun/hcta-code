@@ -1169,6 +1169,26 @@ figcaption.hcta-figcaption {
 	color: var(--hcta-dark-text);
 }
 
+/* Blocks with background img */
+.hcta-bg-img-banner {
+	position: relative;
+	padding: var(--hcta-section-spacing) var(--hcta-page-margin);
+}
+
+.hcta-bg-img-banner__img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.hcta-bg-img-banner__img::before {
+	background: var(--hcta-dark-bg);
+	opacity: 70%;
+}
+
 /* For a block of content that forms the hero section on its own */
 .hcta-hero-block {
 	min-height: 65vh;
