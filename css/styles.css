@@ -161,10 +161,9 @@ h6,
 
 h2.hcta-eyebrow-heading, h3.hcta-eyebrow-heading {
 	font-family: 'IBM Plex Sans';
-    font-weight: 500;
     text-transform: uppercase;
-    font-size: clamp(1.357rem, 0.069vw + 1.335rem, 1.429rem);
-    color: var(--hcta-primary);
+    font-size: clamp(1.125rem, 0.213vw + 1.082rem, 1.25rem);
+    color: var(--hcta-primary) !important;
     margin-bottom: 16px;
 }
 
