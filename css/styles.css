@@ -1176,13 +1176,13 @@ figcaption.hcta-figcaption {
 }
 
 .hcta-bg-img-banner__content-wrapper {
-	color: var(--hcta-light-text);
+	color: var(--hcta-white);
 	position: relative;
 	z-index: 2;
 }
 
 .hcta-bg-img-banner__heading {
-	color: var(--hcta-light-text) !important;
+	color: var(--hcta-white) !important;
 }
 
 .hcta-bg-img-banner__img {
