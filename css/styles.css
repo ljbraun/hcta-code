@@ -1192,6 +1192,9 @@ figcaption.hcta-figcaption {
 	bottom: 0;
 	left: 0;
 	z-index: -1;
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hcta-bg-img-banner::before { /* overlay */
