@@ -1182,7 +1182,7 @@ figcaption.hcta-figcaption {
 }
 
 .hcta-bg-img-banner__heading {
-	color: var(--hcta-light-text);
+	color: var(--hcta-light-text) !important;
 }
 
 .hcta-bg-img-banner__img {
