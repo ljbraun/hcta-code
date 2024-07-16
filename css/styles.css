@@ -1200,7 +1200,7 @@ figcaption.hcta-figcaption {
 .hcta-bg-img-banner::before { /* overlay */
 	content: '';
 	background: var(--hcta-dark-bg);
-	opacity: 0.7;
+	opacity: 0.6;
 	position: absolute;
 	top: 0;
 	left: 0;
