@@ -537,7 +537,7 @@ a[data-post-completion-toggle="false"]:hover {
 
 /* Lesson objectives */
 
-.post-body p.hcta-lesson-objectives {
+p.hcta-lesson-objectives {
 	margin-top: 40px !important;
 	font-weight: 700 !important;
 }
