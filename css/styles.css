@@ -537,7 +537,7 @@ a[data-post-completion-toggle="false"]:hover {
 
 /* Lesson objectives */
 
-.post-body .hcta-lesson-objectives {
+.post-body .hcta-lesson-objectives { /* Not working and can't figure out why */
 	margin-top: 40px !important;
 	font-weight: 700 !important;
 }
@@ -932,12 +932,12 @@ svg.hcta-svg-success {
 svg.hcta-icon--person-check,
 svg.hcta-icon--person-x,
 svg.hcta-icon--person-exclamation,
-svg.hcta-icon--arrows-to-dots {
+svg.hcta-icon--arrows-to-dots, svg.hcta-icon--money-bill-wave, svg.hcta-icon--house {
 	max-width: 2rem;
 }
 
 svg.hcta-icon--circle-exclamation,
-svg.hcta-icon--triangle-exclamation {
+svg.hcta-icon--triangle-exclamation, svg.hcta-icon--file-invoice-dollar {
 	max-width: 1.8rem;
 	top: 10px;
 }
