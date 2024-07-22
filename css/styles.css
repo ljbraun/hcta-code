@@ -892,6 +892,14 @@ ul.hcta-pro-tip__text {
 	overflow: visible;
 }
 
+.hcta-li-bullet--svg {
+	align-items: flex-start;
+}
+
+.hcta-li-bullet--svg svg {
+	margin-top: 18px;
+}
+
 /* Add to div wrapper for p */
 .hcta-icon-p {
 	display: flex;
