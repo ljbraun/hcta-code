@@ -949,7 +949,7 @@ svg.hcta-icon--arrows-to-dots, svg.hcta-icon--money-bill-wave, svg.hcta-icon--ho
 }
 
 svg.hcta-icon--circle-exclamation,
-svg.hcta-icon--triangle-exclamation, svg.hcta-icon--file-invoice-dollar {
+svg.hcta-icon--triangle-exclamation, svg.hcta-icon--file-invoice-dollar, svg.hcta-icon--clipboard-user {
 	max-width: 1.8rem;
 	top: 10px;
 }
