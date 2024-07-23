@@ -893,11 +893,15 @@ ul.hcta-pro-tip__text {
 }
 
 .hcta-li-bullet--svg {
-	align-items: flex-start;
+/*	align-items: flex-start;*/
 }
 
 .hcta-li-bullet--svg svg {
-	margin-top: 18px;
+/*	margin-top: 18px;*/
+	position: absolute;
+	width: 2.2rem;
+	fill: var(--hcta-primary);
+	left: -40px;
 }
 
 /* Add to div wrapper for p */
