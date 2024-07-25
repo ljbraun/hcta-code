@@ -404,8 +404,9 @@ div[data-dynamic-sections="library"] div.resume-course__image {
 /* Non-active lessons */
 h3.product-outline-category a,
 h3.product-outline-subcategory a,
-.product-outline-post:not(.product-outline-post.active) {
+.product-outline-post:not(.product-outline-post.active), .product-outline-subcategory {
 	font-weight: 400;
+	font-size: inherit;
 	color: var(--hcta-dark-text-pale);
 	text-decoration: none;
 }
