@@ -237,7 +237,6 @@ p.hcta-text-lg {
 	}
 }
 
-/*body a:not(.btn),*/
 p a:not(.btn),
 li a,
 .block.background-light a:not(.btn), .section.background-light a:not(.btn) {
@@ -345,8 +344,28 @@ ul ul {
 
 /* Course styling */
 
+/* In-lesson sidebar nav */
+
+.mini-dashboard-back {
+	font-size: 1rem;
+}
+
 .mini-dashboard-back:hover {
 	color: var(--hcta-secondary);
+}
+
+.mini-dashboard-title {
+	font-size: 1.8rem;
+}
+
+.mini-dashboard-user {
+	margin-top: 0;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.mini-dashboard-completion {
+	font-size: 0.9rem;
 }
 
 /* Course library page */
@@ -484,7 +503,6 @@ a[data-post-completion-toggle="false"]:hover {
   color: var(--hcta-primary);
   font-size: 1rem;
   border-radius: var(--hcta-border-radius-btn);
-  padding: 4px 10px;
 }
 
 .post-actions-favorite.favorited {
