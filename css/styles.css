@@ -861,12 +861,13 @@ ul.hcta-pro-tip__text {
 	text-wrap: balance;
 }
 
-/* Self-Reflection box styling */
+/* Dashed border box styling (reflections + price breakdowns */
 .hcta-reflection {
 	border: 2px dashed var(--hcta-primary);
 	border-radius: var(--hcta-border-radius-sm);
 	padding: 0 20px;
-	margin: 40px 0;
+	margin: 40px auto;
+	max-width: fit-content;
 }
 
 .hcta-reflection h3,
