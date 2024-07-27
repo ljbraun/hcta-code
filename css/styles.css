@@ -563,7 +563,7 @@ a[data-post-completion-toggle="false"]:hover {
 
 /* In-lesson images */
 
-.post-body p:has(img), .post-body  {
+.post-body p:has(img)  {
 	display: flex;
 	justify-content: center;
 }
