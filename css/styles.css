@@ -106,7 +106,7 @@ h1, h2, h3, h4, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h
 	margin-bottom: 24px; */
 }
 
-.post-body h2, .post-body h3, .post-body h4 {
+.post-body h2, .post-body h3, .post-body h4, .hcta-policy h1, .hcta-policy h2, .hcta-policy, .hcta-policy h3, .hcta-policy h4, .hcta-policy h5, .hcta-policy h6 {
 	margin-top: 40px;
 	margin-bottom: 24px;
 }
