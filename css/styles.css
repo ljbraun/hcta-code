@@ -1319,7 +1319,7 @@ figcaption.hcta-figcaption {
 
 /* For hero backgrounds that cards overlap */
 .hcta-bg-overlap {
-	background-color: var(--hcta-secondary-bg-pale);
+	background-color: var(--hcta-white);
 	height: 50%;
 	width: 100%;
 	position: absolute;
