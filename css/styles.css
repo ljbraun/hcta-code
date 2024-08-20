@@ -1379,6 +1379,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	max-width: var(--hcta-max-width-container);
     margin-left: auto;
     margin-right: auto;
+	z-index: 1;
 }
 
 .hcta-2card-col { /* 2-card layout */
