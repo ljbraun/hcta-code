@@ -1319,6 +1319,16 @@ figcaption.hcta-figcaption {
     left: 0;
 }
 
+/* For hero backgrounds that cards overlap */
+.hcta-bg-overlap {
+	background-color: var(--hcta-secondary-bg-pale);
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+}
+
 /* For images with rec accents */
 
 .hcta-img-accents {
