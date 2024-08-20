@@ -1323,7 +1323,7 @@ figcaption.hcta-figcaption {
 	height: 50%;
 	width: 100%;
 	position: absolute;
-	bottom: -100px;
+	bottom: 0;
 	left: 0;
 }
 
