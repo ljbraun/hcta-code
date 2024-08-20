@@ -4,7 +4,7 @@
 	/* Colours */
 	--hcta-primary: #351c75;
 	--hcta-secondary: #f79646;
-	--hcta-secondary-bg-pale: #fde3ce;
+	--hcta-secondary-bg-pale: #fef1e7;
 	--hcta-light-bg: #f4f5f5;
 	--hcta-light-text: var(--hcta-light-bg);
 	--hcta-dark-bg: #04002e;
@@ -670,7 +670,7 @@ a[data-post-completion-toggle="false"]:hover {
 /* Table cells */
 table th,
 table tr td {
-	border: 1px solid var(--hcta-primary);
+	border: 1px solid var(--hcta-dark-text);
 }
 
 table tr th,
@@ -706,10 +706,8 @@ table {
 	margin-top: 8px;
 }
 
-/* Sticky thead */
+/* Thead */
 thead {
-	position: sticky;
-	top: 0;
 	background-color: var(--hcta-secondary-bg-pale);
 }
 
