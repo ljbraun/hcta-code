@@ -1151,17 +1151,17 @@ p.hcta-email-template__subject {
 	background-color: var(--hcta-dark-bg);
 }
 
-.footer.background-dark #block-1602193175296 .link-list__link, .footer.background-dark #block-1719342394233 .link-list__link, .footer.background-dark #block-1724744179382 .link-list__link {
-	color: var(--hcta-light-text);
-	text-decoration: none;
-	font-size: 1rem;
-	font-weight: 500;
-	letter-spacing: 0.3px;
+.footer.background-dark /*#block-1602193175296*/ .link-list__link/*, .footer.background-dark #block-1719342394233 .link-list__link, .footer.background-dark #block-1724744179382 .link-list__link*/ {
+	color: var(--hcta-light-text) !important;
+	text-decoration: none !important;
+	font-size: 1rem !important;
+	font-weight: 500 !important;
+	letter-spacing: 0.3px !important;
 }
 
-.footer.background-dark #block-1602193175296 .link-list__link:hover, .footer.background-dark #block-1719342394233 .link-list__link:hover {
-	color: var(--hcta-secondary);
-	text-decoration: underline;
+.footer.background-dark /*#block-1602193175296*/ .link-list__link:hover/*, .footer.background-dark #block-1719342394233 .link-list__link:hover*/ {
+	color: var(--hcta-secondary) !important;
+	text-decoration: underline !important;
 }
 .footer {
 	border-top: var(--hcta-border-width) solid var(--hcta-secondary);
