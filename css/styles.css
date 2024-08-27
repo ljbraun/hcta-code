@@ -1151,7 +1151,7 @@ p.hcta-email-template__subject {
 	background-color: var(--hcta-dark-bg);
 }
 
-.footer.background-dark #block-1602193175296 .link-list__link, .footer.background-dark #block-1719342394233 .link-list__link {
+.footer.background-dark #block-1602193175296 .link-list__link, .footer.background-dark #block-1719342394233 .link-list__link, .footer.background-dark #block-1724744179382 .link-list__link {
 	color: var(--hcta-light-text);
 	text-decoration: none;
 	font-size: 1rem;
