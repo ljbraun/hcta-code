@@ -344,6 +344,17 @@ ul ul {
 
 /* Course styling */
 
+/* Dashboard */
+.dashboard-tabs-tab {
+	font-size: 1.175rem;
+}
+
+@media (max-width: 991px) {
+    .dashboard-tabs-tab {
+        font-size: 1.175rem;
+    }
+}
+
 /* In-lesson sidebar nav */
 
 .mini-dashboard-back {
