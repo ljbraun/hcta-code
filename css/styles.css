@@ -345,12 +345,12 @@ ul ul {
 /* Course styling */
 
 /* Dashboard */
-a.dashboard-tabs-tab {
+.main-content #section-dashboard_tabs .dashboard-tabs a.dashboard-tabs-tab {
 	font-size: 1.175rem;
 }
 
 @media (max-width: 991px) {
-    #section-dashboard_tabs .dashboard-tabs a.dashboard-tabs-tab {
+    .main-content #section-dashboard_tabs .dashboard-tabs a.dashboard-tabs-tab {
         font-size: 1.175rem;
     }
 }
