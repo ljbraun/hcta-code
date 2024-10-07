@@ -350,7 +350,7 @@ a.dashboard-tabs-tab {
 }
 
 @media (max-width: 991px) {
-    a.dashboard-tabs-tab {
+    #section-dashboard_tabs .dashboard-tabs a.dashboard-tabs-tab {
         font-size: 1.175rem;
     }
 }
