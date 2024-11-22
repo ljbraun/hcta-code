@@ -1306,6 +1306,23 @@ figcaption.hcta-figcaption {
 	}
 }
 
+/* Img that extends to edge behind hero img */
+.hero-img-bg-edge {
+	position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: -1;
+    height: 73%;
+	width: 31%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 995px) {
+	.hero-img-bg-edge {
+		display: none;	
+	}
+}
+
 /* Slanted rectangle bg */
 .hcta-slanted-rec {
 	background-color: var(--hcta-secondary);
@@ -1601,3 +1618,37 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 .sidebar-search__form input::placeholder {
 	color: var(--hcta-dark-text);
 }
+
+/* Breadcrumb nav */
+nav.breadcrumb {
+	padding: 0.8em 1em;
+	border: 1px solid hsl(0deg 0% 90%);
+	border-radius: 4px;
+	background: hsl(300deg 14% 97%);
+  }
+  
+  nav.breadcrumb ol {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+  }
+  
+  nav.breadcrumb li {
+	display: inline;
+  }
+  
+  nav.breadcrumb li + li::before {
+	display: inline-block;
+	margin: 0 0.25em;
+	transform: rotate(15deg);
+	border-right: 0.1em solid currentcolor;
+	height: 0.8em;
+	content: "";
+  }
+  
+  nav.breadcrumb [aria-current="page"] {
+	color: #000;
+	font-weight: 700;
+	text-decoration: none;
+  }
+  
