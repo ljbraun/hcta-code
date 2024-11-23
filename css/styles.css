@@ -4,6 +4,7 @@
 	/* Colours */
 	--hcta-primary: #351c75;
 	--hcta-secondary: #f79646;
+	--hcta-secondary-pale: #FDE3CE;
 	--hcta-secondary-bg-pale: #fef1e7;
 	--hcta-light-bg: #f4f5f5;
 	--hcta-light-text: var(--hcta-light-bg);
@@ -25,10 +26,14 @@
 	--hcta-page-margin: clamp(24px, 1vw + 20.8px, 40px);
 	--hcta-section-spacing: clamp(40px, 3.75vw + 28px, 100px);
 	--hcta-block-padding-md: clamp(24px, 1.969vw + 0.87rem, 56px);
+	--hcta-block-padding-lg: clamp(24px, 4vw + 12px, 64px);
 
 	/* Widths */
 	--hcta-max-width-ch: 58ch;
 	--hcta-max-width-container: 78.75rem; /* 1260px */
+	
+	/* Box shadows */
+	--hcta-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.075);
 }
 
 /*
@@ -1306,6 +1311,11 @@ figcaption.hcta-figcaption {
 	}
 }
 
+/* Course cards */
+.hcta-course-card {
+	display: grid;
+}
+
 /* Img that extends to edge behind hero img */
 .hero-img-bg-edge {
 	position: absolute;
@@ -1413,7 +1423,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	align-items: center;
 	gap: 8px;
 	background-color: var(--hcta-white);
-	box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.075);
+	box-shadow: var(--hcta-box-shadow);
 }
 
 .hcta-card__img {
