@@ -1248,6 +1248,7 @@ figcaption.hcta-figcaption {
 	height: 100%;
 }
 
+/* Cards with course details on courses page */
 .hcta-course-card .hcta-course-card__block.hcta-course-card__block--overview::before {
 	z-index: 1;
 }
@@ -1263,13 +1264,17 @@ figcaption.hcta-figcaption {
 	box-shadow: var(--hcta-box-shadow);
   }
   
-  .hcta-course-card__block--overview {
-	background-color: var(--hcta-primary);
+  /* Both columns */
+  .hcta-course-card__block {
 	padding: clamp(24px, 4vw + 12px, 64px);
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	position: relative;
+  }
+
+  .hcta-course-card__block--overview {
+	background-color: var(--hcta-primary);
+	justify-content: space-between;
 	color: var(--hcta-light-text);
   }
   
@@ -1323,10 +1328,6 @@ figcaption.hcta-figcaption {
   
   .hcta-course-card__block--details {
 	background-color: var(--hcta-white);
-	padding: clamp(24px, 4vw + 12px, 64px);
-	display: flex;
-	flex-direction: column;
-	position: relative;
   }
   
   .hcta-course-card__details-content-wrapper {
