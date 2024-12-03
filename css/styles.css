@@ -1252,6 +1252,10 @@ figcaption.hcta-figcaption {
 	z-index: 1;
 }
 
+.hcta-course-card__img {
+	z-index: 0;
+}
+
 .hcta-course-card {
 	display: grid;
 	grid-template-columns: 4fr 6fr;
@@ -1273,6 +1277,7 @@ figcaption.hcta-figcaption {
 	display: flex;
 	flex-direction: column;
 	row-gap: 8px;
+	z-index: 2;
   }
   
   .hcta-course-card__heading-wrapper {
@@ -1301,6 +1306,7 @@ figcaption.hcta-figcaption {
 	display: flex;
 	flex-direction: column;
 	color: inherit;
+	z-index: 2;
   }
   
   .hcta-course-card__price {
