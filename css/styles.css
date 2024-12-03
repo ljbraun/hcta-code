@@ -1333,8 +1333,15 @@ figcaption.hcta-figcaption {
 	z-index: 1;
 	display: flex;
 	flex-direction: column;
-	row-gap: 64px;
-	max-width: 512px;
+	row-gap: 24px;
+  }
+
+  .hcta-course-card__block.hcta-course-card__block--details h4 {
+	margin-top: 0;
+  }
+
+  .hcta-course-card__block.hcta-course-card__block--details a.btn {
+	width: fit-content;
   }
   
 
