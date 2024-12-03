@@ -1262,6 +1262,7 @@ figcaption.hcta-figcaption {
 	grid-template-columns: 4fr 6fr;
 	overflow: hidden;
 	box-shadow: var(--hcta-box-shadow);
+	margin: 20px auto; /* 20px = box shadow spread so it's not cut off by Kajabi block */
   }
   
   /* Both columns */
