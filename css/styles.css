@@ -1225,7 +1225,7 @@ figcaption.hcta-figcaption {
 	color: var(--hcta-white) !important;
 }
 
-.hcta-bg-img-banner__img {
+.hcta-bg-img-banner__img, .hcta-course-card__block.hcta-course-card__block--overview {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -1237,7 +1237,7 @@ figcaption.hcta-figcaption {
     object-fit: cover;
 }
 
-.hcta-bg-img-banner::before { /* overlay */
+.hcta-bg-img-banner::before, .hcta-course-card__block.hcta-course-card__block--overview::before { /* overlay */
 	content: '';
 	background: var(--hcta-dark-bg);
 	opacity: 0.6;
