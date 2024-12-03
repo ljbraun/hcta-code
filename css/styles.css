@@ -1345,6 +1345,16 @@ figcaption.hcta-figcaption {
 	width: fit-content;
   }
   
+  /* Course card responsiveness */
+  @media only screen and (max-width: 940px) {
+	.hcta-course-card {
+		grid-template-columns: minmax(0, 1fr);
+		max-width: 40rem;
+	}
+	.hcta-course-card__block.hcta-course-card__block--details a.btn {
+		width: 100%;
+	}
+  }
 
 /* For a block of content that forms the hero section on its own */
 .hcta-hero-block {
