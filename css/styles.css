@@ -203,6 +203,7 @@ strong {
 	border: none;
 	border-radius: var(--hcta-border-radius-btn) !important;
 	text-decoration: none;
+	text-wrap: balance;
 }
 
 /* Button with secondary colour background */
