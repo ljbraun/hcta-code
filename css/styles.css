@@ -1307,6 +1307,7 @@ figcaption.hcta-figcaption {
 
   .hcta-course-card__overview-text-wrapper h3 {
 	color: inherit;
+	font-size: clamp(1.8rem, 0.574vw + 1.616rem, 2.4rem);
   }
   
   .hcta-course-card__price-wrapper {
@@ -1337,6 +1338,10 @@ figcaption.hcta-figcaption {
 	display: flex;
 	flex-direction: column;
 	row-gap: 24px;
+  }
+
+  .hcta-course-card__details-text-wrapper {
+	color: var(--hcta-dark-text);
   }
 
   .hcta-course-card__block.hcta-course-card__block--details h4 {
