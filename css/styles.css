@@ -1450,7 +1450,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	.hcta-3card-col, .hcta-2card-col {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
-	.hcta-card {
+	.hcta-card, .hcta-course-card {
 		max-width: 25rem;
 	}
 }
@@ -1463,6 +1463,61 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 .block-type--feature.col-3 { /* Kajabi default */
 	padding: 24px;
 	max-width: 400px;
+}
+
+/* Course cards */
+
+.hcta-course-card {
+	background-color: var(--hcta-white);
+    box-shadow: var(--hcta-box-shadow);
+	color: var(--hcta-dark-text));
+}
+
+.hcta-course-card__img {
+	width: 100%;
+	max-height: 180px;
+	object-fit: cover;
+}
+
+.hcta-course-card__content-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	padding: 24px;
+}
+
+.hcta-course-card__text-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-bottom: 40px;
+}
+
+.hcta-course-card__tag {
+	font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--hcta-dark-text);
+    background-color: var(--hcta-secondary-pale);
+    padding: 3px 8px;
+    border-radius: var(--hcta-border-radius-btn);
+    width: fit-content;
+    order: -1;
+    margin: 0;
+}
+
+.hcta-course-card__description {
+	font-size: 1.065rem; /* 17px */
+}
+
+.hcta-course-card__bottom-wrapper {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.hcta-course-card__price {
+	font-family: 'Marcellus', Helvetica, sans-serif;
+	font-size: 1.875rem; /* 30px */
 }
 
 /* Buttons wrapper (for more than 1 button) */
