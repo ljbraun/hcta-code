@@ -1470,20 +1470,25 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 .hcta-course-card {
 	background-color: var(--hcta-white);
     box-shadow: var(--hcta-box-shadow);
-	color: var(--hcta-dark-text));
+}
+
+.hcta-course-card__img-wrapper {
+	width: 100%;
+	max-height: 180px;
 }
 
 .hcta-course-card__img {
 	width: 100%;
-	max-height: 180px;
+	height: 100%;
 	object-fit: cover;
 }
 
 .hcta-course-card__content-wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: stretch;
+	justify-content: space-between;
 	padding: 24px;
+	color: var(--hcta-dark-text);
 }
 
 .hcta-course-card__text-wrapper {
@@ -1511,13 +1516,19 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 
 .hcta-course-card__bottom-wrapper {
 	display: flex;
-	align-items: stretch;
-	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hcta-course-card__btn {
+	margin: 0;
 }
 
 .hcta-course-card__price {
 	font-family: 'Marcellus', Helvetica, sans-serif;
 	font-size: 1.875rem; /* 30px */
+	order: 1;
+	margin: 0;
 }
 
 /* Buttons wrapper (for more than 1 button) */
