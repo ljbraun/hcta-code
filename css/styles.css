@@ -1313,9 +1313,9 @@ figcaption.hcta-figcaption {
 }
 
 /* Course cards */
-.hcta-course-card {
-	display: grid;
-}
+/*.hcta-course-card {
+	display: grid; /* Not sure why this was here */
+}*/
 
 /* Img that extends to edge behind hero img */
 .hero-img-bg-edge {
@@ -1467,10 +1467,11 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 
 /* Course cards */
 
-/* wtf is wrong */
 .hcta-course-card {
 	background-color: var(--hcta-white);
     box-shadow: var(--hcta-box-shadow);
+	display: flex;
+	flex-direction: column;
 }
 
 .hcta-course-card__img-wrapper {
@@ -1488,6 +1489,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 100%;
 	padding: 24px;
 	color: var(--hcta-dark-text);
 }
