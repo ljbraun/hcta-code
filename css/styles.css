@@ -1581,14 +1581,17 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	vertical-align: middle;
 	background-size: contain;
 	margin-top: 8px;
-	top: 0;
+}
+
+.hcta-li-bullet--value-checkmark {
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
 @media only screen and (max-width: 520px) {
-	.hcta-li-bullet--value-checkmark::before {
+	.hcta-li-bullet--value-checkmark {
 		flex-direction: column;
 	}
 }
