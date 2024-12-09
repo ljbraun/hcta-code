@@ -755,7 +755,7 @@ ul.hcta-unstyled-list {
 	color: transparent;
 }
 
-/* Checkmark bullet point */
+/* Checkmark circular bullet point */
 .hcta-li-bullet--checkmark::before {
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/54cb817-26fa-b864-5f-ef654cf501cb_circle-check-solid.png")
@@ -773,7 +773,25 @@ ul.hcta-unstyled-list {
 	left: -24px;
 }
 
-/* Xmark bullet point*/
+/* White checkmark */
+.hcta-li-bullet--check-light::before {
+	content: "";
+	background: url("https://res.cloudinary.com/djekzs0zt/image/upload/q_auto,f_auto/v1733739583/icon_check-solid-light_mpqedc.png")
+		no-repeat left center;
+	display: block;
+	flex-shrink: 0;
+	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+	vertical-align: middle;
+	background-size: contain;
+	margin-top: 8px;
+	position: absolute;
+	top: 0;
+	left: -24px;
+}
+
+/* Xmark circular bullet point*/
 .hcta-li-bullet--xmark::before {
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/be502ee-884e-0336-b5fb-150ef8e015_circle-xmark-solid.png")
@@ -791,7 +809,7 @@ ul.hcta-unstyled-list {
 	left: -24px;
 }
 
-/* Question mark bullet point */
+/* Question mark circular bullet point */
 .hcta-li-bullet--qmark::before {
 	content: "";
 	background: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2157314353/settings_images/bdc15d6-f80-d2b-f778-2a7be56cb6b_circle-question-solid.png")
