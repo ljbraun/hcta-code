@@ -788,7 +788,6 @@ ul.hcta-unstyled-list {
 	margin-top: 8px;
 	position: absolute;
 	top: 0;
-	left: -24px;
 }
 
 /* Xmark circular bullet point*/
@@ -1550,6 +1549,40 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	font-size: 1.875rem; /* 30px */
 	order: 1;
 	margin: 0;
+}
+
+/* Value stack list banner */
+
+/* Provides the default Kajabi left-right padding */
+.hcta-page-margin-wrapper {
+	width: 100%;
+	padding: 0 40px;
+}
+
+@media only screen and (max-width: 767px) {
+	.hcta-page-margin-wrapper {
+		padding: 0 10px;
+	}
+}
+
+.hcta-value-stack-banner {
+	background-color: var(--hcta-primary);
+	color: var(--hcta-white);
+	max-width: var(--hcta-max-width-container);
+	margin: 0 auto;
+	padding: 8px 40px 8px 64px;
+}
+
+.hcta-value-stack-banner__list {
+	font-size: 1.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 0;
+	margin: 0;
+	row-gap: 0;
+	column-gap: 40px;
+	align-items: center;
 }
 
 /* Buttons wrapper (for more than 1 button) */
