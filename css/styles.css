@@ -1569,7 +1569,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 }
 
 /* White checkmark */
-.hcta-li-bullet--check-light::before {
+.hcta-li-bullet--value-checkmark::before {
 	content: "";
 	background: url("https://res.cloudinary.com/djekzs0zt/image/upload/q_auto,f_auto/v1733739583/icon_check-solid-light_mpqedc.png")
 		no-repeat left center;
@@ -1588,7 +1588,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 }
 
 @media only screen and (max-width: 520px) {
-	.hcta-li-bullet--check-light::before {
+	.hcta-li-bullet--value-checkmark::before {
 		flex-direction: column;
 	}
 }
