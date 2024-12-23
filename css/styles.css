@@ -1513,7 +1513,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
     margin: 0 0 8px 0;
 }
 
-.hcta-course-card__description {
+.hcta-course-card__description, a.card p.card__text /* Kajabi offer cards */ {
 	font-size: 1.065rem; /* 17px */
 }
 
@@ -1527,7 +1527,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	margin: 0;
 }
 
-.hcta-course-card__price {
+.hcta-course-card__price, a.card h5.card__price /* Kajabi offer cards */ {
 	font-family: 'Marcellus', Helvetica, sans-serif;
 	font-size: 1.875rem; /* 30px */
 	order: 1;
