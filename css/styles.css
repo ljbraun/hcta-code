@@ -126,7 +126,7 @@ h1.hcta-h1-small { /* H1 for landing pages */
 	text-wrap: balance;
 }
 
-h2, p.hcta-h2 {
+h2, .hcta-h2, p.hcta-h2 {
   font-size: clamp(1.929rem, 0.833vw + 1.663rem, 2.8rem);
 }
 
