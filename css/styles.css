@@ -1538,6 +1538,10 @@ a.card h5.card__price {
 	text-align: right;
 }
 
+a.card {
+	max-width: 25rem;
+}
+
 /* Value stack list banner */
 
 /* Provides the default Kajabi left-right padding */
