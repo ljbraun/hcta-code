@@ -102,7 +102,7 @@ html { /* Need to test this still - doesn't work yet */
 	font-style: normal;
 }
 
-h1, h2, h3, h4, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, .post-body h4, p.hcta-h2, h1 span /* This selector works, but font family not being applied */ {
+h1, h2, h3, h4, h5, .h4, h1.panel__title, .post-body h1, .post-body h2, .post-body h3, .post-body h4, p.hcta-h2, h1 span /* This selector works, but font family not being applied */ {
 	font-family: "Marcellus", sans-serif;
 	line-height: 110%;
 	font-weight: 400;
@@ -143,7 +143,6 @@ h4, h2.hcta-h4, h3.hcta-h4 {
 h5 {
 	font-size: 1.175rem;
 	font-weight: 600;
-	font-style: italic;
 }
 
 h6 {
@@ -1532,6 +1531,7 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 	font-size: 1.875rem; /* 30px */
 	order: 1;
 	margin: 0;
+	font-weight: 400;
 }
 
 /* Value stack list banner */
