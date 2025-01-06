@@ -244,7 +244,7 @@ p.hcta-text-lg {
 
 p a:not(.btn),
 li a,
-div.block.background-light a:not(.btn, .card), .section.background-light a:not(.btn),  {
+div.block.background-light a:not(.btn, .card), .section.background-light a:not(.btn), .post-body a  {
 	color: var(--hcta-primary);
 	text-decoration: underline !important;
 	font-weight: 600;
