@@ -246,7 +246,7 @@ p a:not(.btn),
 li a,
 .block.background-light a:not(.btn, .card), .section.background-light a:not(.btn),  {
 	color: var(--hcta-primary);
-	text-decoration: underline;
+	text-decoration: underline !important;
 	font-weight: 600;
 	font-size: 1.125rem;
 	line-height: 180%;
@@ -1536,10 +1536,6 @@ div.block:has(.hcta-3card-col) { /* Making box shadows visible */
 
 a.card h5.card__price {
 	text-align: right;
-}
-
-a.card {
-	max-width: 25rem;
 }
 
 /* Value stack list banner */
