@@ -1557,7 +1557,7 @@ a.card h5.card__price {
 	color: var(--hcta-white);
 	max-width: var(--hcta-max-width-container);
 	margin: 0 auto;
-	padding: 8px 40px 8px 64px;
+	padding: 8px 40px;
 }
 
 .hcta-value-stack-banner__list {
