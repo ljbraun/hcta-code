@@ -1025,6 +1025,23 @@ p.hcta-email-template__subject {
 	}
 }
 
+/* Quotes */
+.post-body blockquote {
+	display: flex;
+	gap: 8px;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+
+.post-body blockquote span.blockquote-qmark {
+	color: var(--hcta-primary);
+    font-size: 7rem;
+    line-height: 84%;
+    font-style: normal;
+}
+
+
+
 /* Course quizzes */
 
 /* Moving quiz below heading 1 */
